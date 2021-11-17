@@ -45,7 +45,6 @@
           <li><a class="nav-link scrollto active" href="#hero">Home</a></li>
           <li><a class="nav-link scrollto" href="#about-us">About</a></li>
           <li><a class="nav-link scrollto" href="#features">Features</a></li>
-          <li><a class="nav-link scrollto" href="#screenshots">Screenshots</a></li>
           <li><a class="nav-link scrollto" href="#team">Team</a></li>
           <!-- <li><a class="nav-link scrollto" href="#pricing">Pricing</a></li> -->
           <!-- <li class="dropdown"><a href="#"><span>Drop Down</span> <i class="bi bi-chevron-down"></i></a>
@@ -79,7 +78,7 @@
       <h1>Welcome to Project New Dawn</h1>
       <h2>A community management solution</h2>
       <img src="assets/img/hero-img.png" alt="Hero Imgs" data-aos="zoom-out" data-aos-delay="100">
-      <a href="#get-started" class="btn-get-started scrollto">Get Started</a>
+      <a href="pages/sign-in.php" class="btn-get-started scrollto">Get Started</a>
       <div class="btns">
         <a href="#"><i class="fa fa-apple fa-3x"></i> App Store</a>
         <a href="#"><i class="fa fa-play fa-3x"></i> Google Play</a>
@@ -96,21 +95,21 @@
         <div class="row justify-content-center">
 
           <div class="col-md-5 col-lg-3">
-            <img src="assets/img/about-img.png" alt="About" data-aos="zoom-in" data-aos-delay="100">
+            <img src="assets/img/about-img.jpg" alt="About" data-aos="zoom-in" data-aos-delay="100">
           </div>
 
           <div class="col-md-7 col-lg-5">
             <div class="about-content" data-aos="fade-left" data-aos-delay="100">
 
-              <h2><span>eStartup</span>UI Design Mobile </h2>
-              <p>Consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat
+              <h2><span>Project NEW-DAWN</span>UI Design Mobile </h2>
+              <p>Pandemic has taught us the value of community, what if we can build a better community with the power of technology!
               </p>
 
               <ul class="list-unstyled">
-                <li><i class="vi bi-chevron-right"></i>Creative Design</li>
-                <li><i class="vi bi-chevron-right"></i>Retina Ready</li>
-                <li><i class="vi bi-chevron-right"></i>Easy to Use</li>
-                <li><i class="vi bi-chevron-right"></i>Unlimited Features</li>
+                <li><i class="vi bi-chevron-right"></i>Community Driven</li>
+                <li><i class="vi bi-chevron-right"></i>Job Portal</li>
+                <li><i class="vi bi-chevron-right"></i>News and Events</li>
+                <li><i class="vi bi-chevron-right"></i>Marketplace</li>
                 <li><i class="vi bi-chevron-right"></i>Unlimited Features</li>
               </ul>
 
@@ -201,30 +200,6 @@
     </section><!-- End Features Section -->
 
     <!-- ======= Screenshots Section ======= -->
-    <section id="screenshots" class="padd-section text-center">
-
-      <div class="container" data-aos="fade-up">
-        <div class="section-title text-center">
-          <h2>App Gallery</h2>
-          <p class="separator">Integer cursus bibendum augue ac cursus .</p>
-        </div>
-
-        <div class="screens-slider swiper">
-          <div class="swiper-wrapper align-items-center">
-            <div class="swiper-slide"><img src="assets/img/screen/1.jpg" class="img-fluid" alt=""></div>
-            <div class="swiper-slide"><img src="assets/img/screen/2.jpg" class="img-fluid" alt=""></div>
-            <div class="swiper-slide"><img src="assets/img/screen/3.jpg" class="img-fluid" alt=""></div>
-            <div class="swiper-slide"><img src="assets/img/screen/4.jpg" class="img-fluid" alt=""></div>
-            <div class="swiper-slide"><img src="assets/img/screen/5.jpg" class="img-fluid" alt=""></div>
-            <div class="swiper-slide"><img src="assets/img/screen/6.jpg" class="img-fluid" alt=""></div>
-            <div class="swiper-slide"><img src="assets/img/screen/7.jpg" class="img-fluid" alt=""></div>
-            <div class="swiper-slide"><img src="assets/img/screen/8.jpg" class="img-fluid" alt=""></div>
-          </div>
-          <div class="swiper-pagination"></div>
-        </div>
-      </div>
-
-    </section><!-- End Screenshots Section -->
 
     <!-- ======= Video Section ======= -->
     <section id="video" class="text-center">
@@ -253,60 +228,60 @@
 
           <div class="col-md-6 col-md-4 col-lg-3" data-aos="zoom-in" data-aos-delay="100">
             <div class="team-block bottom">
-              <img src="assets/img/team/1.jpg" class="img-responsive" alt="img">
+              <img src="assets/img/team/6.jpg" class="img-responsive" alt="img">
               <div class="team-content">
                 <ul class="list-unstyled">
                   <li><a href="#"><i class="bi bi-facebook"></i></a></li>
                   <li><a href="#"><i class="bi bi-twitter"></i></a></li>
                   <li><a href="#"><i class="bi bi-linkedin"></i></a></li>
                 </ul>
-                <span>manager</span>
-                <h4>Kimberly Tran</h4>
+                <span>Team Lead</span>
+                <h4>Arjun Raj</h4>
               </div>
             </div>
           </div>
 
           <div class="col-md-6 col-md-4 col-lg-3" data-aos="zoom-in" data-aos-delay="200">
             <div class="team-block bottom">
-              <img src="assets/img/team/2.jpg" class="img-responsive" alt="img">
+              <img src="assets/img/team/5.jpg" class="img-responsive" alt="img">
               <div class="team-content">
                 <ul class="list-unstyled">
                   <li><a href="#"><i class="bi bi-facebook"></i></a></li>
                   <li><a href="#"><i class="bi bi-twitter"></i></a></li>
                   <li><a href="#"><i class="bi bi-linkedin"></i></a></li>
                 </ul>
-                <span>manager</span>
-                <h4>Kimberly Tran</h4>
+                <span>UI/UX Dev Lead</span>
+                <h4>Akshaymon K.V</h4>
               </div>
             </div>
           </div>
 
           <div class="col-md-6 col-md-4 col-lg-3" data-aos="zoom-in" data-aos-delay="300">
             <div class="team-block bottom">
-              <img src="assets/img/team/3.jpg" class="img-responsive" alt="img">
+              <img src="assets/img/team/7.jpg" class="img-responsive" alt="img">
               <div class="team-content">
                 <ul class="list-unstyled">
                   <li><a href="#"><i class="bi bi-facebook"></i></a></li>
                   <li><a href="#"><i class="bi bi-twitter"></i></a></li>
                   <li><a href="#"><i class="bi bi-linkedin"></i></a></li>
                 </ul>
-                <span>manager</span>
-                <h4>Kimberly Tran</h4>
+                <span>Backend & Azure Lead</span>
+                <h4>Akhil M Anil</h4>
               </div>
             </div>
           </div>
 
           <div class="col-md-6 col-md-4 col-lg-3" data-aos="zoom-in" data-aos-delay="400">
             <div class="team-block bottom">
-              <img src="assets/img/team/4.jpg" class="img-responsive" alt="img">
+              <img src="assets/img/team/8.jpg" class="img-responsive" alt="img">
               <div class="team-content">
                 <ul class="list-unstyled">
                   <li><a href="#"><i class="bi bi-facebook"></i></a></li>
                   <li><a href="#"><i class="bi bi-twitter"></i></a></li>
                   <li><a href="#"><i class="bi bi-linkedin"></i></a></li>
                 </ul>
-                <span>manager</span>
-                <h4>Kimberly Tran</h4>
+                <span>Full Stack Dev</span>
+                <h4>Akshay V Anil</h4>
               </div>
             </div>
           </div>
@@ -314,162 +289,6 @@
         </div>
       </div>
     </section><!-- End Team Section -->
-
-    <!-- ======= Testimonials Section ======= -->
-    <section id="testimonials" class="padd-section text-center">
-      <div class="container" data-aos="fade-up">
-        <div class="row justify-content-center">
-
-          <div class="col-md-8">
-
-            <div class="testimonials-content">
-              <div id="carousel-example-generic" class="carousel slide" data-bs-ride="carousel">
-
-                <div class="carousel-inner" role="listbox">
-
-                  <div class="carousel-item  active">
-                    <div class="top-top">
-
-                      <h2>Our Users Speack volumes us</h2>
-                      <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type
-                        specimen book. It has survived not only five centuries.</p>
-                      <h4>Kimberly Tran<span>manager</span></h4>
-
-                    </div>
-                  </div>
-
-                  <div class="carousel-item ">
-                    <div class="top-top">
-
-                      <h2>Our Users Speack volumes us</h2>
-                      <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type
-                        specimen book. It has survived not only five centuries.</p>
-                      <h4>Henderson<span>manager</span></h4>
-
-                    </div>
-                  </div>
-
-                  <div class="carousel-item ">
-                    <div class="top-top">
-
-                      <h2>Our Users Speack volumes us</h2>
-                      <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type
-                        specimen book. It has survived not only five centuries.</p>
-                      <h4>David Spark<span>manager</span></h4>
-
-                    </div>
-                  </div>
-
-                </div>
-
-                <div class="btm-btm">
-
-                  <ul class="list-unstyled carousel-indicators">
-                    <li data-bs-target="#carousel-example-generic" data-bs-slide-to="0" class="active"></li>
-                    <li data-bs-target="#carousel-example-generic" data-bs-slide-to="1"></li>
-                    <li data-bs-target="#carousel-example-generic" data-bs-slide-to="2"></li>
-                  </ul>
-
-                </div>
-
-              </div>
-            </div>
-          </div>
-
-        </div>
-      </div>
-    </section><!-- End Testimonials Section -->
-
-    <!-- ======= Pricing Section ======= -->
-    <section id="pricing" class="padd-section text-cente">
-
-      <div class="container" data-aos="fade-up">
-        <div class="section-title text-center">
-
-          <h2>Meet With Price</h2>
-          <p class="separator">Integer cursus bibendum augue ac cursus .</p>
-        </div>
-
-        <div class="row" data-aos="fade-up" data-aos-delay="100">
-
-          <div class="col-md-6 col-lg-3">
-            <div class="block-pricing">
-              <div class="table">
-                <h4>basic</h4>
-                <h2>$29</h2>
-                <ul class="list-unstyled">
-                  <li><b>4 GB</b> Ram</li>
-                  <li><b>7/24</b> Tech Support</li>
-                  <li><b>40 GB</b> SSD Cloud Storage</li>
-                  <li>Monthly Backups</li>
-                  <li>Palo Protection</li>
-                </ul>
-                <div class="table_btn">
-                  <a href="#" class="btn"><i class="bi bi-cart"></i> Buy Now</a>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-md-6 col-lg-3">
-            <div class="block-pricing">
-              <div class="table">
-                <h4>PERSONAL</h4>
-                <h2>$29</h2>
-                <ul class="list-unstyled">
-                  <li><b>4 GB</b> Ram</li>
-                  <li><b>7/24</b> Tech Support</li>
-                  <li><b>40 GB</b> SSD Cloud Storage</li>
-                  <li>Monthly Backups</li>
-                  <li>Palo Protection</li>
-                </ul>
-                <div class="table_btn">
-                  <a href="#" class="btn"><i class="bi bi-cart"></i> Buy Now</a>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-md-6 col-lg-3">
-            <div class="block-pricing">
-              <div class="table">
-                <h4>BUSINESS</h4>
-                <h2>$29</h2>
-                <ul class="list-unstyled">
-                  <li><b>4 GB</b> Ram</li>
-                  <li><b>7/24</b> Tech Support</li>
-                  <li><b>40 GB</b> SSD Cloud Storage</li>
-                  <li>Monthly Backups</li>
-                  <li>Palo Protection</li>
-                </ul>
-                <div class="table_btn">
-                  <a href="#" class="btn"><i class="bi bi-cart"></i> Buy Now</a>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-md-6 col-lg-3">
-            <div class="block-pricing">
-              <div class="table">
-                <h4>profeesional</h4>
-                <h2>$29</h2>
-                <ul class="list-unstyled">
-                  <li><b>4 GB</b> Ram</li>
-                  <li><b>7/24</b> Tech Support</li>
-                  <li><b>40 GB</b> SSD Cloud Storage</li>
-                  <li>Monthly Backups</li>
-                  <li>Palo Protection</li>
-                </ul>
-                <div class="table_btn">
-                  <a href="#" class="btn"><i class="bi bi-cart"></i> Buy Now</a>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section><!-- End Pricing Section -->
 
     <!-- ======= Blog Section ======= -->
     <section id="blog" class="padd-sectio">
