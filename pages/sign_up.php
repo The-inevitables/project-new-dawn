@@ -25,50 +25,6 @@
   <div class="container position-sticky z-index-sticky top-0">
     <div class="row">
       <div class="col-12">
-        <!-- Navbar -->
-        <nav class="navbar navbar-expand-lg blur blur-rounded top-0 z-index-3 shadow position-absolute my-3 py-2 start-0 end-0 mx-4">
-          <div class="container-fluid">
-            <a class="navbar-brand font-weight-bolder ms-lg-0 ms-3 " href="../pages/dashboard.html">
-              Project NEW-DAWN
-            </a>
-            <button class="navbar-toggler shadow-none ms-2" type="button" data-bs-toggle="collapse" data-bs-target="#navigation" aria-controls="navigation" aria-expanded="false" aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon mt-2">
-                <span class="navbar-toggler-bar bar1"></span>
-                <span class="navbar-toggler-bar bar2"></span>
-                <span class="navbar-toggler-bar bar3"></span>
-              </span>
-            </button>
-            <div class="collapse navbar-collapse" id="navigation">
-              <ul class="navbar-nav mx-auto">
-                <li class="nav-item">
-                  <a class="nav-link d-flex align-items-center me-2 active" aria-current="page" href="#">
-                    <i class="fa fa-chart-pie opacity-6 text-dark me-1"></i>
-                    Forum
-                  </a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link me-2" href="#">
-                    <i class="fa fa-user opacity-6 text-dark me-1"></i>
-                    Community
-                  </a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link me-2" href="#">
-                    <i class="fas fa-user-circle opacity-6 text-dark me-1"></i>
-                    Marketplace
-                  </a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link me-2" href="sign-in.php">
-                    <i class="fas fa-key opacity-6 text-dark me-1"></i>
-                    Sign In
-                  </a>
-                </li>
-              </ul>
-            </div>
-          </div>
-        </nav>
-        <!-- End Navbar -->
       </div>
     </div>
   </div>
@@ -80,29 +36,35 @@
             <div class="col-xl-4 col-lg-5 col-md-6 d-flex flex-column mx-auto">
               <div class="card card-plain mt-8">
                 <div class="card-header pb-0 text-left bg-transparent">
-                  <h3 class="font-weight-bolder text-info text-gradient">Welcome!</h3>
-                  <p class="mb-0">It's quick and easy!</p>
+                  <h3 class="font-weight-bolder text-info text-gradient">Quick Update!</h3>
+                  
                 </div>
                 <div class="card-body">
-                  <form method="post" action="connection.php">
-                  <label>First Name</label>
+                  <form method="post" action="connection2.php">
+                  <label>Date Of Birth</label>
                     <div class="mb-3">
-                      <input type="text" class="form-control" placeholder="First Name" id="fname" name="fname" aria-label="First Name" aria-describedby="fname-addon">
+                      <input type="date" class="form-control" placeholder="DOB" name="dob" aria-label="DOB" aria-describedby="dob-addon">
                     </div> 
-                   <label>Last Name</label>
+                   <label>Gender</label>
                     <div class="mb-3">
-                      <input type="text" class="form-control" placeholder="Last Name" id="lname" name="lname" aria-label="Last Name" aria-describedby="lname-addon">
+                      <input type="radio"  name="gender" value="male">Male<br>
+                      <input type="radio"  name="gender" value="female">Female<br>
+                      <input type="radio"  name="gender" value="others">Others
                     </div> 
-                  <label>Email</label>
+                    <label>Country</label>
                     <div class="mb-3">
-                      <input type="email" class="form-control" placeholder="Email" id="email" name="email" aria-label="Email" aria-describedby="email-addon">
+                      <input type="text" class="form-control" placeholder="Country" name="country" aria-label="Country" aria-describedby="country-addon">
                     </div>
-                    <label>Password</label>
+                    <label>State</label>
                     <div class="mb-3">
-                      <input type="password" class="form-control" placeholder="Password" id="password" name="password" aria-label="Password" aria-describedby="password-addon">
+                      <input type="text" class="form-control" placeholder="State" name="state" aria-label="State" aria-describedby="state-addon">
+                    </div>
+                    <label>Home Town</label>
+                    <div class="mb-3">
+                      <input type="text" class="form-control" placeholder="Home Town" name="hometown" aria-label="hometown" aria-describedby="hometown-addon">
                     </div>
                     <div class="text-center">
-                      <button type="submit" class="btn bg-gradient-info w-100 mt-4 mb-0">Sign Up</button>
+                      <button type="submit" class="btn bg-gradient-info w-100 mt-4 mb-0">Continue</button>
                     </div>
                   </form>
                 </div>
