@@ -30,6 +30,12 @@ The one place for all .
   <link href="../assets/css/nucleo-svg.css" rel="stylesheet" />
   <!-- CSS Files -->
   <link id="pagestyle" href="../assets/css/soft-ui-dashboard.css?v=1.0.3" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+.checked {
+  color: orange;
+}
+</style>
 </head>
 
 <body class="g-sidenav-show  bg-gray-100">
@@ -445,10 +451,10 @@ The one place for all .
 
 <!-- First component layout -->
 <div class="container-fluid">
-      <div class="page-header min-height-300 border-radius-xl mt-4" style="background-image: url('../assets/img/curved-images/curved0.jpg'); background-position-y: 50%;">
+       <div class="page-header min-height-300 border-radius-xl mt-4" style="background-image: url('../assets/img/curved-images/curved0.jpg'); background-position-y: 50%;">
         <span class="mask bg-gradient-primary opacity-6"></span>
-      </div>
-      <div class="card card-body blur shadow-blur mx-4 mt-n6 overflow-hidden">
+       </div>
+       <div class="card card-body blur shadow-blur mx-4 mt-n6 overflow-hidden">
         <div class="row gx-4">
           <div class="col-auto">
             <div class="avatar avatar-xl position-relative">
@@ -484,7 +490,7 @@ The one place for all .
                         </g>
                       </g>
                     </svg>
-                    <span class="ms-1">App</span>
+                    <span class="ms-1">Write your blog!</span>
                   </a>
                 </li>
                 <li class="nav-item">
@@ -536,42 +542,113 @@ The one place for all .
       <!-- End of First component layout -->
        <!-- Start of Blog  component layout -->
     <div class="container-fluid py-4">
-      <!-- <div class="row"> -->
-       <div class="col-lg-5">
-          <div class="card h-100 p-3">
-            <div class="overflow-hidden position-relative border-radius-lg bg-cover h-100" style="background-image: url('../assets/img/ivancik.jpg');">
-              <span class="mask bg-gradient-dark"></span>
-              <div class="card-body position-relative z-index-1 d-flex flex-column h-100 p-3">
-                <h5 class="text-white font-weight-bolder mb-4 pt-2">Join the clubs</h5>
-                <p class="text-white">Wealth creation is an evolutionarily recent positive-sum game. Join clubs in various communities and showcase your talents.</p>
-                <a class="text-white text-sm font-weight-bold mb-0 icon-move-right mt-auto" href="javascript:;">
-                  Read More
-                  <i class="fas fa-arrow-right text-sm ms-1" aria-hidden="true"></i>
-                </a>
-              </div>
-            </div>
-          </div>
-          <div class="card h-100 p-3">
-            <div class="overflow-hidden position-relative border-radius-lg bg-cover h-100" style="background-image: url('../assets/img/ivancik.jpg');">
-              <span class="mask bg-gradient-dark"></span>
-              <div class="card-body position-relative z-index-1 d-flex flex-column h-100 p-3">
-                <h5 class="text-white font-weight-bolder mb-4 pt-2">Join the clubs</h5>
-                <p class="text-white">Wealth creation is an evolutionarily recent positive-sum game. Join clubs in various communities and showcase your talents.</p>
-                <a class="text-white text-sm font-weight-bold mb-0 icon-move-right mt-auto" href="javascript:;">
-                  Read More
-                  <i class="fas fa-arrow-right text-sm ms-1" aria-hidden="true"></i>
-                </a>
-              </div>
-            </div>
-          </div>
-          </div>  
-          </div>
+        <div class="row mt-4">
 
-      
+
+            <div class="col-lg-6">
+               <div class="card h-100 p-3">
+                   <div class="overflow-hidden position-relative border-radius-lg bg-cover h-100" style="background-image: url('../assets/img/bgm.jpg');">
+                    <!-- <span class="mask bg-gradient-dark"></span> -->
+                       <div class="card-body position-relative z-index-1 d-flex flex-column h-100 p-3">
+                             <h5 class="text-white font-weight-bolder mb-4 pt-2">HUMANKIND</h5>
+                              <p class="text-white">It was pouring, as I entered a  nearby porch.Out of the blue, a kid startled me from behind--I panicked and scampered away. 
+                                His father asked him not to scare anyone.
+                                After some initial hiccups we became good friends. I often visited their house, ate with them.
+                                One day, while I was slurping down the milk, a man entered their portico, begging for food.
+                                The father yelled at him and pushed him out of the entrance.I was terrified, and in a jiffy, I ran away screaming, "Meow! Meow …"</p>
+                              <a class="text-white text-sm font-weight-bold mb-0 icon-move-right mt-auto" href="javascript:;">
+                              --Aswin R. S., Chennai&emsp;
+                                <!-- <i class="fas fa-arrow-right text-sm ms-1" aria-hidden="true"></i> -->
+                                <span class="fa fa-star checked"></span>
+                              <span class="fa fa-star checked"></span>
+                              <span class="fa fa-star checked"></span>
+                              <span class="fa fa-star checked"></span>
+                              <span class="fa fa-star"></span>
+                              </a>
+                              </div>
+                        </div>
+                    </div>
+              </div>  
+          
+              <div class="col-lg-6">
+                 <div class="card h-100 p-3">
+                   <div class="overflow-hidden position-relative border-radius-lg bg-cover h-100" style="background-image: url('../assets/img/bgm.jpg');">
+                    <!-- <span class="mask bg-gradient-dark"></span> -->
+                       <div class="card-body position-relative z-index-1 d-flex flex-column h-100 p-3">
+                             <h5 class="text-white font-weight-bolder mb-4 pt-2">LOVE ACTUALLY</h5>
+                              <p class="text-white">"Do you believe in shooting stars?" she asked."Do you?""There is no harm, is there?" She paused. 
+                                "I'd love to sit in the balcony amidst all the flowerpots and watch the busy world go by."He said nothing.
+                                 She needed no assurance, no promise. She squawked a reply when they asked if she was ready to go back to her room. 
+                                 It would be another 10 minutes before the duty nurse wheeled him away.She had laughed at the last tooth he had lost. 
+                                 He had teased her about the silver hair at the back of her sweater.</p>
+                              <a class="text-white text-sm font-weight-bold mb-0 icon-move-right mt-auto" href="javascript:;">
+                              --Maya Davi Chalissery, Thrissur, Kerala &emsp;
+                                <!-- <i class="fas fa-arrow-right text-sm ms-1" aria-hidden="true"></i>  -->
+                                <span class="fa fa-star checked"></span>
+                              <span class="fa fa-star checked"></span>
+                              <span class="fa fa-star checked"></span>
+                              <span class="fa fa-star checked"></span>
+                              <span class="fa fa-star"></span>
+                              </a>
+
+                              </div>
+                        </div>
+                    </div>
+                  </div> 
+                  </div> 
+
+              <div class="row mt-4">
+                <div class="col-lg-6">
+                 <div class="card h-100 p-3">
+                   <div class="overflow-hidden position-relative border-radius-lg bg-cover h-100" style="background-image: url('../assets/img/bgm.jpg');">
+                    <!-- <span class="mask bg-gradient-dark"></span> -->
+                       <div class="card-body position-relative z-index-1 d-flex flex-column h-100 p-3">
+                             <h5 class="text-white font-weight-bolder mb-4 pt-2">STREET SMART</h5>
+                              <p class="text-white">It was 9 a.m., 26 January. The politician's car, on the way to the flag-hoisting ceremony, stopped at a red light. 
+                                A 10-year-old street vendor came running to the car and waved the tricolour, hoping that selling one more flag will help him buy some vada pav. 
+                                With no intention of buying, the politician rolled down the window and smirked, "Today you are selling the national flag.
+                                 On other days, I have seen you sell toys, umbrellas and kites. Is there anything you have not sold so far?""Our country," the boy retorted at once.</p>
+                              <a class="text-white text-sm font-weight-bold mb-0 icon-move-right mt-auto" href="javascript:;">
+                              --Kalpesh Sheth, Mumbai &emsp;
+                                <!-- <i class="fas fa-arrow-right text-sm ms-1" aria-hidden="true"></i> -->
+                                <span class="fa fa-star checked"></span>
+                              <span class="fa fa-star checked"></span>
+                              <span class="fa fa-star checked"></span>
+                              <span class="fa fa-star"></span>
+                              <span class="fa fa-star"></span>
+                              </a>
+                              </div>
+                        </div>
+                    </div>
+                </div> 
+
+                <div class="col-lg-6">
+                 <div class="card h-100 p-3">
+                   <div class="overflow-hidden position-relative border-radius-lg bg-cover h-100" style="background-image: url('../assets/img/bgm.jpg');">
+                    <!-- <span class="mask bg-gradient-dark"></span> -->
+                       <div class="card-body position-relative z-index-1 d-flex flex-column h-100 p-3">
+                             <h5 class="text-white font-weight-bolder mb-4 pt-2">The Old Hunter</h5>
+                              <p class="text-white">The terminal illness gripped the Old Hunter tight in its grasp, dragging him down piece by piece. 
+                                The days were bad, but the nights were worse. He would startle awake in the early hours to find his bed surrounded by all the birds and animals he had killed over his lifetime.
+                                 Deer, Pheasant, Foxes, Badgers and Pigeons he’d shot, Birds of Prey he’d poisoned. They would watch in silence, ignoring his pleas and curses, simply waiting for the inevitable;
+                                  For the Old Hunter to confront the final predator, the Ravager of Souls and face the judgement that is to come.</p>
+                              <a class="text-white text-sm font-weight-bold mb-0 icon-move-right mt-auto" href="javascript:;">
+                                 --Bill Cox &emsp;
+                                <!-- <i class="fas fa-arrow-right text-sm ms-1" aria-hidden="true"></i> -->
+                                <span class="fa fa-star checked"></span>
+                              <span class="fa fa-star checked"></span>
+                              <span class="fa fa-star checked"></span>
+                              <span class="fa fa-star"></span>
+                              <span class="fa fa-star"></span>
+                              </a>
+                              </div>
+                        </div>
+                    </div>
+                  </div> 
         
       
-    
 
+          </div>
       </div>
       <!-- End of Blog Layout -->
       <!-- Start of footer -->
