@@ -30,6 +30,12 @@ The one place for all .
   <link href="../assets/css/nucleo-svg.css" rel="stylesheet" />
   <!-- CSS Files -->
   <link id="pagestyle" href="../assets/css/soft-ui-dashboard.css?v=1.0.3" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+.checked {
+  color: orange;
+}
+</style>
 </head>
 
 <body class="g-sidenav-show  bg-gray-100">
@@ -551,8 +557,13 @@ The one place for all .
                                 One day, while I was slurping down the milk, a man entered their portico, begging for food.
                                 The father yelled at him and pushed him out of the entrance.I was terrified, and in a jiffy, I ran away screaming, "Meow! Meow …"</p>
                               <a class="text-white text-sm font-weight-bold mb-0 icon-move-right mt-auto" href="javascript:;">
-                              --Aswin R. S., Chennai
-                                <i class="fas fa-arrow-right text-sm ms-1" aria-hidden="true"></i>
+                              --Aswin R. S., Chennai&emsp;
+                                <!-- <i class="fas fa-arrow-right text-sm ms-1" aria-hidden="true"></i> -->
+                                <span class="fa fa-star checked"></span>
+                              <span class="fa fa-star checked"></span>
+                              <span class="fa fa-star checked"></span>
+                              <span class="fa fa-star checked"></span>
+                              <span class="fa fa-star"></span>
                               </a>
                               </div>
                         </div>
@@ -571,9 +582,15 @@ The one place for all .
                                  It would be another 10 minutes before the duty nurse wheeled him away.She had laughed at the last tooth he had lost. 
                                  He had teased her about the silver hair at the back of her sweater.</p>
                               <a class="text-white text-sm font-weight-bold mb-0 icon-move-right mt-auto" href="javascript:;">
-                              --Maya Davi Chalissery, Thrissur, Kerala
-                                <i class="fas fa-arrow-right text-sm ms-1" aria-hidden="true"></i>
+                              --Maya Davi Chalissery, Thrissur, Kerala &emsp;
+                                <!-- <i class="fas fa-arrow-right text-sm ms-1" aria-hidden="true"></i>  -->
+                                <span class="fa fa-star checked"></span>
+                              <span class="fa fa-star checked"></span>
+                              <span class="fa fa-star checked"></span>
+                              <span class="fa fa-star checked"></span>
+                              <span class="fa fa-star"></span>
                               </a>
+
                               </div>
                         </div>
                     </div>
@@ -592,8 +609,13 @@ The one place for all .
                                 With no intention of buying, the politician rolled down the window and smirked, "Today you are selling the national flag.
                                  On other days, I have seen you sell toys, umbrellas and kites. Is there anything you have not sold so far?""Our country," the boy retorted at once.</p>
                               <a class="text-white text-sm font-weight-bold mb-0 icon-move-right mt-auto" href="javascript:;">
-                              --Kalpesh Sheth, Mumbai
-                                <i class="fas fa-arrow-right text-sm ms-1" aria-hidden="true"></i>
+                              --Kalpesh Sheth, Mumbai &emsp;
+                                <!-- <i class="fas fa-arrow-right text-sm ms-1" aria-hidden="true"></i> -->
+                                <span class="fa fa-star checked"></span>
+                              <span class="fa fa-star checked"></span>
+                              <span class="fa fa-star checked"></span>
+                              <span class="fa fa-star"></span>
+                              <span class="fa fa-star"></span>
                               </a>
                               </div>
                         </div>
@@ -611,8 +633,13 @@ The one place for all .
                                  Deer, Pheasant, Foxes, Badgers and Pigeons he’d shot, Birds of Prey he’d poisoned. They would watch in silence, ignoring his pleas and curses, simply waiting for the inevitable;
                                   For the Old Hunter to confront the final predator, the Ravager of Souls and face the judgement that is to come.</p>
                               <a class="text-white text-sm font-weight-bold mb-0 icon-move-right mt-auto" href="javascript:;">
-                                 --Bill Cox
-                                <i class="fas fa-arrow-right text-sm ms-1" aria-hidden="true"></i>
+                                 --Bill Cox &emsp;
+                                <!-- <i class="fas fa-arrow-right text-sm ms-1" aria-hidden="true"></i> -->
+                                <span class="fa fa-star checked"></span>
+                              <span class="fa fa-star checked"></span>
+                              <span class="fa fa-star checked"></span>
+                              <span class="fa fa-star"></span>
+                              <span class="fa fa-star"></span>
                               </a>
                               </div>
                         </div>
