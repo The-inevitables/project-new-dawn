@@ -311,7 +311,9 @@ The one place for all .
             <li class="nav-item d-flex align-items-center">
               <a href="javascript:;" class="nav-link text-body font-weight-bold px-0">
                 <i class="fa fa-user me-sm-1"></i>
-                <span class="d-sm-inline d-none">Sign In</span>
+                <span class="d-sm-inline d-none"><?php
+                include "phpqueries/name.php"                 
+                ?>  </span>
               </a>
             </li>
             <li class="nav-item d-xl-none ps-3 d-flex align-items-center">
@@ -439,10 +441,14 @@ The one place for all .
           <div class="col-auto my-auto">
             <div class="h-100">
               <h5 class="mb-1">
-                Alec Thompson
+              <?php
+                include "phpqueries/name.php"                 
+              ?>  
               </h5>
               <p class="mb-0 font-weight-bold text-sm">
-                CEO / Co-Founder
+              <?php
+                include "phpqueries/email.php"                 
+                ?>  
               </p>
             </div>
           </div>
@@ -582,15 +588,29 @@ The one place for all .
               </div>
             </div>
             <div class="card-body p-3">
-              <p class="text-sm">
-                Hi, I’m Alec Thompson, Decisions: If you can’t decide, the answer is no. If two equally difficult paths, choose the one more painful in the short term (pain avoidance is creating an illusion of equality).
-              </p>
+              
               <hr class="horizontal gray-light my-4">
               <ul class="list-group">
-                <li class="list-group-item border-0 ps-0 pt-0 text-sm"><strong class="text-dark">Full Name:</strong> &nbsp; Alec M. Thompson</li>
-                <li class="list-group-item border-0 ps-0 text-sm"><strong class="text-dark">Mobile:</strong> &nbsp; (44) 123 1234 123</li>
-                <li class="list-group-item border-0 ps-0 text-sm"><strong class="text-dark">Email:</strong> &nbsp; alecthompson@mail.com</li>
-                <li class="list-group-item border-0 ps-0 text-sm"><strong class="text-dark">Location:</strong> &nbsp; USA</li>
+                <li class="list-group-item border-0 ps-0 pt-0 text-sm"><strong class="text-dark">Full Name:</strong> &nbsp; 
+                <?php
+                include "phpqueries/name.php"                 
+                ?>            
+              </li>
+                <li class="list-group-item border-0 ps-0 text-sm"><strong class="text-dark">Email:</strong> &nbsp; 
+                <?php
+                include "phpqueries/email.php"                 
+                ?>  
+              </li>
+                <li class="list-group-item border-0 ps-0 text-sm"><strong class="text-dark">Gender</strong> &nbsp; 
+                <?php
+                include "phpqueries/gender.php"                 
+                ?>
+                </li>
+                <li class="list-group-item border-0 ps-0 text-sm"><strong class="text-dark">Location:</strong> &nbsp; 
+                <?php
+                include "phpqueries/hometown.php"                 
+                ?>
+                </li>
                 <li class="list-group-item border-0 ps-0 pb-0">
                   <strong class="text-dark text-sm">Social:</strong> &nbsp;
                   <a class="btn btn-facebook btn-simple mb-0 ps-1 pe-2 py-0" href="javascript:;">
