@@ -18,7 +18,7 @@ The one place for all .
   <link rel="apple-touch-icon" sizes="76x76" href="../assets/img/apple-icon.png">
   <link rel="icon" type="image/png" href="../assets/img/favicon.png">
   <title>
-    Communities | Project New Dawn
+   Community | Project New Dawn
   </title>
   <!--     Fonts and icons     -->
   <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700" rel="stylesheet" />
@@ -62,7 +62,7 @@ The one place for all .
                 </g>
               </svg>
             </div>
-            <span class="nav-link-text ms-1">Dashboard</span>
+            <span class="nav-link-text ms-1">Community Tab</span>
           </a>
         </li>
                 <!-- Dashboard Quick Link bar  : Friends tab-->
@@ -150,7 +150,7 @@ The one place for all .
                 </g>
               </svg>
             </div>
-            <span class="nav-link-text ms-1">Communities</span>
+            <span class="nav-link-text ms-1"> Communities </span>
           </a>
         </li>
         <!-- Dashboard Quick Link bar  : Club tab-->
@@ -313,6 +313,7 @@ The one place for all .
           <ol class="breadcrumb bg-transparent mb-0 pb-0 pt-1 px-0 me-sm-6 me-5">
             <li class="breadcrumb-item text-sm"><a class="opacity-5 text-dark" href="javascript:;">Pages</a></li>
             <li class="breadcrumb-item text-sm text-dark active" aria-current="page">Dashboard</li>
+            <li class="breadcrumb-item text-sm text-dark active" aria-current="page">clubs</li>
           </ol>
           <h6 class="font-weight-bolder mb-0">Dashboard</h6>
         </nav>
@@ -441,25 +442,6 @@ The one place for all .
     </nav>
     <!-- End Navbar -->
     
-  <!-- -------------------------
-------------------------------------------------------------
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-PLACE YOUR CODE HERE!
 
 
 
@@ -477,6 +459,407 @@ PLACE YOUR CODE HERE!
 
 
 
+    <div class="row mt-4">
+        <div class="col-lg-7 mb-lg-0 mb-4">
+          <div class="card">
+            <div class="card-body p-3">
+              <div class="row">
+                <div class="col-lg-6">
+                  <div class="d-flex flex-column h-100">
+                    <p class="mb-1 pt-2 text-bold">Why Join a community?</p>
+                    <br/>
+                    <h5 class="font-weight-bolder">Community Newsletter</h5>
+                    <p class="mb-5">Being part of an engaging community gives us a sense of belonging. It enables us to share personal relatedness and support perpetual growth of each other, ourselves and our environment.</p>
+                
+                    
+                  </div>
+                </div>
+                <div class="col-lg-5 ms-auto text-center mt-5 mt-lg-0">
+                  <div >
+                    <!-- <img src="../assets/img/shapes/waves-white.svg" class="position-absolute h-100 w-50 top-0 d-lg-block d-none" alt="waves"> -->
+                    <div class="position-relative d-flex align-items-center justify-content-center h-100">
+                      <!-- <img class="w-100 position-relative z-index-2 pt-4" src="../assets/img/illustrations/rocket-white.png" alt="rocket"> -->
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+        <div class="col-lg-5">
+        <div class="container">
+  
+  <card class="card">
+    <iframe class="card-img-top" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2038.8869354068509!2d15.21545545625287!3d59.26803797168206!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x465c14e4a4c8e193%3A0xf18609c2d9ee261f!2sLa%20Santa%20Maria%20Tattoos%20%26%20Art!5e0!3m2!1ssv!2sse!4v1568297791174!5m2!1ssv!2sse" frameborder="0" style="border:0;" allowfullscreen="">
+    </iframe>
+    <div class="card-body">
+      <table>
+        <tr>
+          <td><i class="fas fa-map-marker-alt"></i></td>
+          <td>
+            <address>
+              Mangalam Lane <br>
+              Stradfordshire Palace<br>
+              Kollam
+            </address>
+          </td>
+        </tr>
+        <tr>
+          <td><i class="far fa-envelope"></i></td>
+          <td>www.github.com/inevitables</td>
+        </tr>
+        <tr>
+          <td><i class="fas fa-phone"></i></td>
+          <td>91 9100100100</td>
+        </tr>
+        <tr>
+          <td><i class="fab fa-instagram"></i></td>
+          <td>jagapoka @ instagram</td>
+        </tr>
+      </table>
+    </div>
+  </card>
+  </div>
+    </div>
+
+
+      <div class="row mt-4">
+        <div class="row my-4">
+        <div class="col-lg-8 col-md-6 mb-md-0 mb-4">
+          <div class="card">
+            <div class="card-header pb-0">
+              <div class="row">
+                <div class="col-lg-6 col-7">
+                  <h6>Clubs in Communities</h6>
+                  <p class="text-sm mb-0">
+                    <i class="fa fa-check text-info" aria-hidden="true"></i>
+                    <span class="font-weight-bold ms-1">30 done</span> this month
+                  </p>
+                </div>
+                <div class="col-lg-6 col-5 my-auto text-end">
+                  <div class="dropdown float-lg-end pe-4">
+                    <a class="cursor-pointer" id="dropdownTable" data-bs-toggle="dropdown" aria-expanded="false">
+                      <i class="fa fa-ellipsis-v text-secondary"></i>
+                    </a>
+                    <ul class="dropdown-menu px-2 py-3 ms-sm-n4 ms-n5" aria-labelledby="dropdownTable">
+                      <li><a class="dropdown-item border-radius-md" href="javascript:;">Action</a></li>
+                      <li><a class="dropdown-item border-radius-md" href="javascript:;">Another action</a></li>
+                      <li><a class="dropdown-item border-radius-md" href="javascript:;">Something else here</a></li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="card-body px-0 pb-2">
+              <div class="table-responsive">
+                <table class="table align-items-center mb-0">
+                  <thead>
+                    <tr>
+                      <th class="text-uppercase text-secondary text-xxs font-weight-bolder opacity-7">Clubs</th>
+                      <th class="text-uppercase text-secondary text-xxs font-weight-bolder opacity-7 ps-2">Members</th>
+                     
+                      <th class="text-center text-uppercase text-secondary text-xxs font-weight-bolder opacity-7">Goal Completion</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td>
+                        <div class="d-flex px-2 py-1">
+                        <div>
+                            <img src="../assets/img/small-logos/logo-atlassian.svg" class="avatar avatar-sm me-3" alt="atlassian">
+                          </div>
+                          <div class="d-flex flex-column justify-content-center">
+                            <h6 class="mb-0 text-sm">Club</h6>
+                          </div>
+                        </div>
+                      </td>
+                      <td>
+                        <div class="avatar-group mt-2">
+                          <a href="javascript:;" class="avatar avatar-xs rounded-circle" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Ryan Tompson">
+                            <img src="../assets/img/team-1.jpg" alt="team1">
+                          </a>
+                          <a href="javascript:;" class="avatar avatar-xs rounded-circle" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Romina Hadid">
+                            <img src="../assets/img/team-2.jpg" alt="team2">
+                          </a>
+                          <a href="javascript:;" class="avatar avatar-xs rounded-circle" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Alexander Smith">
+                            <img src="../assets/img/team-3.jpg" alt="team3">
+                          </a>
+                          <a href="javascript:;" class="avatar avatar-xs rounded-circle" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Jessica Doe">
+                            <img src="../assets/img/team-4.jpg" alt="team4">
+                          </a>
+                        </div>
+                      </td>
+   
+                      <td class="align-middle">
+                        <div class="progress-wrapper w-75 mx-auto">
+                          <div class="progress-info">
+                            <div class="progress-percentage">
+                              <span class="text-xs font-weight-bold">60%</span>
+                            </div>
+                          </div>
+                          <div class="progress">
+                            <div class="progress-bar bg-gradient-info w-60" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100"></div>
+                          </div>
+                        </div>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>
+                        <div class="d-flex px-2 py-1">
+                        <div>
+                            <img src="../assets/img/small-logos/logo-atlassian.svg" class="avatar avatar-sm me-3" alt="atlassian">
+                          </div>
+                          <div class="d-flex flex-column justify-content-center">
+                            <h6 class="mb-0 text-sm">Club</h6>
+                          </div>
+                        </div>
+                      </td>
+                      <td>
+                        <div class="avatar-group mt-2">
+                          <a href="javascript:;" class="avatar avatar-xs rounded-circle" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Romina Hadid">
+                            <img src="../assets/img/team-2.jpg" alt="team5">
+                          </a>
+                          <a href="javascript:;" class="avatar avatar-xs rounded-circle" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Jessica Doe">
+                            <img src="../assets/img/team-4.jpg" alt="team6">
+                          </a>
+                        </div>
+                      </td>
+                    
+                      <td class="align-middle">
+                        <div class="progress-wrapper w-75 mx-auto">
+                          <div class="progress-info">
+                            <div class="progress-percentage">
+                              <span class="text-xs font-weight-bold">10%</span>
+                            </div>
+                          </div>
+                          <div class="progress">
+                            <div class="progress-bar bg-gradient-info w-10" role="progressbar" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100"></div>
+                          </div>
+                        </div>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>
+                        <div class="d-flex px-2 py-1">
+                        <div>
+                            <img src="../assets/img/small-logos/logo-atlassian.svg" class="avatar avatar-sm me-3" alt="atlassian">
+                          </div>
+                          <div class="d-flex flex-column justify-content-center">
+                            <h6 class="mb-0 text-sm">Club</h6>
+                          </div>
+                        </div>
+                      </td>
+                      <td>
+                        <div class="avatar-group mt-2">
+                          <a href="javascript:;" class="avatar avatar-xs rounded-circle" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Romina Hadid">
+                            <img src="../assets/img/team-3.jpg" alt="team8">
+                          </a>
+                          <a href="javascript:;" class="avatar avatar-xs rounded-circle" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Jessica Doe">
+                            <img src="../assets/img/team-1.jpg" alt="team9">
+                          </a>
+                        </div>
+                      </td>
+                
+                      <td class="align-middle">
+                        <div class="progress-wrapper w-75 mx-auto">
+                          <div class="progress-info">
+                            <div class="progress-percentage">
+                              <span class="text-xs font-weight-bold">100%</span>
+                            </div>
+                          </div>
+                          <div class="progress">
+                            <div class="progress-bar bg-gradient-success w-100" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
+                          </div>
+                        </div>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>
+                        <div class="d-flex px-2 py-1">
+                        <div>
+                            <img src="../assets/img/small-logos/logo-atlassian.svg" class="avatar avatar-sm me-3" alt="atlassian">
+                          </div>
+                          <div class="d-flex flex-column justify-content-center">
+                            <h6 class="mb-0 text-sm">Club</h6>
+                          </div>
+                        </div>
+                      </td>
+                      <td>
+                        <div class="avatar-group mt-2">
+                          <a href="javascript:;" class="avatar avatar-xs rounded-circle" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Ryan Tompson">
+                            <img src="../assets/img/team-4.jpg" alt="user1">
+                          </a>
+                          <a href="javascript:;" class="avatar avatar-xs rounded-circle" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Romina Hadid">
+                            <img src="../assets/img/team-3.jpg" alt="user2">
+                          </a>
+                          <a href="javascript:;" class="avatar avatar-xs rounded-circle" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Alexander Smith">
+                            <img src="../assets/img/team-4.jpg" alt="user3">
+                          </a>
+                          <a href="javascript:;" class="avatar avatar-xs rounded-circle" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Jessica Doe">
+                            <img src="../assets/img/team-1.jpg" alt="user4">
+                          </a>
+                        </div>
+                      </td>
+                      
+                      <td class="align-middle">
+                        <div class="progress-wrapper w-75 mx-auto">
+                          <div class="progress-info">
+                            <div class="progress-percentage">
+                              <span class="text-xs font-weight-bold">100%</span>
+                            </div>
+                          </div>
+                          <div class="progress">
+                            <div class="progress-bar bg-gradient-success w-100" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
+                          </div>
+                        </div>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>
+                        <div class="d-flex px-2 py-1">
+                        <div>
+                            <img src="../assets/img/small-logos/logo-atlassian.svg" class="avatar avatar-sm me-3" alt="atlassian">
+                          </div>
+                          <div class="d-flex flex-column justify-content-center">
+                            <h6 class="mb-0 text-sm">Club</h6>
+                          </div>
+                        </div>
+                      </td>
+                      <td>
+                        <div class="avatar-group mt-2">
+                          <a href="javascript:;" class="avatar avatar-xs rounded-circle" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Ryan Tompson">
+                            <img src="../assets/img/team-4.jpg" alt="user5">
+                          </a>
+                        </div>
+                      </td>
+                     
+                      <td class="align-middle">
+                        <div class="progress-wrapper w-75 mx-auto">
+                          <div class="progress-info">
+                            <div class="progress-percentage">
+                              <span class="text-xs font-weight-bold">25%</span>
+                            </div>
+                          </div>
+                          <div class="progress">
+                            <div class="progress-bar bg-gradient-info w-25" role="progressbar" aria-valuenow="25" aria-valuemin="0" aria-valuemax="25"></div>
+                          </div>
+                        </div>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>
+                        <div class="d-flex px-2 py-1">
+                        <div>
+                            <img src="../assets/img/small-logos/logo-atlassian.svg" class="avatar avatar-sm me-3" alt="atlassian">
+                          </div>
+                          <div class="d-flex flex-column justify-content-center">
+                            <h6 class="mb-0 text-sm">Club</h6>
+                          </div>
+                        </div>
+                      </td>
+                      <td>
+                        <div class="avatar-group mt-2">
+                          <a href="javascript:;" class="avatar avatar-xs rounded-circle" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Ryan Tompson">
+                            <img src="../assets/img/team-1.jpg" alt="user6">
+                          </a>
+                          <a href="javascript:;" class="avatar avatar-xs rounded-circle" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Jessica Doe">
+                            <img src="../assets/img/team-4.jpg" alt="user7">
+                          </a>
+                        </div>
+                      </td>
+                   
+                      <td class="align-middle">
+                        <div class="progress-wrapper w-75 mx-auto">
+                          <div class="progress-info">
+                            <div class="progress-percentage">
+                              <span class="text-xs font-weight-bold">40%</span>
+                            </div>
+                          </div>
+                          <div class="progress">
+                            <div class="progress-bar bg-gradient-info w-40" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="40"></div>
+                          </div>
+                        </div>
+                      </td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6">
+          <div class="card h-100">
+            <div class="card-header pb-0">
+              <h6>Notice Boards</h6>
+              <p class="text-sm">
+                <i class="fa fa-arrow-up text-success" aria-hidden="true"></i>
+                <span class="font-weight-bold">24%</span> this month
+              </p>
+            </div>
+            <div class="card-body p-3">
+              <div class="timeline timeline-one-side">
+                <div class="timeline-block mb-3">
+                  <span class="timeline-step">
+                    <i class="ni ni-bell-55 text-success text-gradient"></i>
+                  </span>
+                  <div class="timeline-content">
+                    <h6 class="text-dark text-sm font-weight-bold mb-0">$2400, Design changes</h6>
+                    <p class="text-secondary font-weight-bold text-xs mt-1 mb-0">22 DEC 7:20 PM</p>
+                  </div>
+                </div>
+                <div class="timeline-block mb-3">
+                  <span class="timeline-step">
+                    <i class="ni ni-html5 text-danger text-gradient"></i>
+                  </span>
+                  <div class="timeline-content">
+                    <h6 class="text-dark text-sm font-weight-bold mb-0">New order #1832412</h6>
+                    <p class="text-secondary font-weight-bold text-xs mt-1 mb-0">21 DEC 11 PM</p>
+                  </div>
+                </div>
+                <div class="timeline-block mb-3">
+                  <span class="timeline-step">
+                    <i class="ni ni-cart text-info text-gradient"></i>
+                  </span>
+                  <div class="timeline-content">
+                    <h6 class="text-dark text-sm font-weight-bold mb-0">Server payments for April</h6>
+                    <p class="text-secondary font-weight-bold text-xs mt-1 mb-0">21 DEC 9:34 PM</p>
+                  </div>
+                </div>
+                <div class="timeline-block mb-3">
+                  <span class="timeline-step">
+                    <i class="ni ni-credit-card text-warning text-gradient"></i>
+                  </span>
+                  <div class="timeline-content">
+                    <h6 class="text-dark text-sm font-weight-bold mb-0">New card added for order #4395133</h6>
+                    <p class="text-secondary font-weight-bold text-xs mt-1 mb-0">20 DEC 2:20 AM</p>
+                  </div>
+                </div>
+                <div class="timeline-block mb-3">
+                  <span class="timeline-step">
+                    <i class="ni ni-key-25 text-primary text-gradient"></i>
+                  </span>
+                  <div class="timeline-content">
+                    <h6 class="text-dark text-sm font-weight-bold mb-0">Unlock packages for development</h6>
+                    <p class="text-secondary font-weight-bold text-xs mt-1 mb-0">18 DEC 4:54 AM</p>
+                  </div>
+                </div>
+                <div class="timeline-block">
+                  <span class="timeline-step">
+                    <i class="ni ni-money-coins text-dark text-gradient"></i>
+                  </span>
+                  <div class="timeline-content">
+                    <h6 class="text-dark text-sm font-weight-bold mb-0">New order #9583120</h6>
+                    <p class="text-secondary font-weight-bold text-xs mt-1 mb-0">17 DEC</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    
 
 
 
@@ -489,9 +872,6 @@ PLACE YOUR CODE HERE!
 
 
 
-
-
----------------------------------------------------------------->
 
 
 
