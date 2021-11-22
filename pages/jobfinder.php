@@ -19,7 +19,7 @@ The one place for all .
   <link rel="apple-touch-icon" sizes="76x76" href="../assets/img/apple-icon.png">
   <link rel="icon" type="image/png" href="../assets/img/favicon.png">
   <title>
-    Job Finder | Project New Dawn
+    Jobs | Project New Dawn
   </title>
   <!--     Fonts and icons     -->
   <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700" rel="stylesheet" />
@@ -34,6 +34,10 @@ The one place for all .
   <!-- extra elements -->
   <link href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+
+  
+  <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="../assets/css/style(mt).css">
 </head>
 
 <body class="g-sidenav-show  bg-gray-100">
@@ -110,7 +114,7 @@ The one place for all .
                 </g>
               </svg>
             </div>
-            <span class="nav-link-text ms-1">Job Finder</span>
+            <span class="nav-link-text ms-1">Jobs</span>
           </a>
         </li>
   <!-- Dashboard Quick Link bar  : Market  Place tab-->
@@ -251,22 +255,7 @@ The one place for all .
         </li>
       </ul>
     </div>
-    <!-- <div class="sidenav-footer mx-3 ">
-      <div class="card card-background shadow-none card-background-mask-secondary" id="sidenavCard">
-        <div class="full-background" style="background-image: url('../assets/img/curved-images/white-curved.jpeg')"></div>
-        <div class="card-body text-start p-3 w-100">
-          <div class="icon icon-shape icon-sm bg-white shadow text-center mb-3 d-flex align-items-center justify-content-center border-radius-md">
-            <i class="ni ni-diamond text-dark text-gradient text-lg top-0" aria-hidden="true" id="sidenavCardIcon"></i>
-          </div>
-          <div class="docs-info">
-            <h6 class="text-white up mb-0">Need help?</h6>
-            <p class="text-xs font-weight-bold">Please check our docs</p>
-            <a href="https://www.creative-tim.com/learning-lab/bootstrap/license/soft-ui-dashboard" target="_blank" class="btn btn-white btn-sm w-100 mb-0">Documentation</a>
-          </div>
-        </div>
-      </div>
-      <a class="btn bg-gradient-primary mt-4 w-100" href="https://www.creative-tim.com/product/soft-ui-dashboard-pro?ref=sidebarfree" type="button">Upgrade to pro</a>
-    </div> -->
+
   </aside>
   <main class="main-content position-relative max-height-vh-100 h-100 mt-1 border-radius-lg ">
     <!-- Navbar -->
@@ -276,9 +265,9 @@ The one place for all .
           <ol class="breadcrumb bg-transparent mb-0 pb-0 pt-1 px-0 me-sm-6 me-5">
             <li class="breadcrumb-item text-sm"><a class="opacity-5 text-dark" href="javascript:;">Pages</a></li>
             <li class="breadcrumb-item text-sm  " aria-current="page">Dashboard</li>
-            <li class="breadcrumb-item text-sm text-dark active" aria-current="page">Job Finder</li>
+            <li class="breadcrumb-item text-sm text-dark active" aria-current="page">Jobs</li>
           </ol>
-          <h6 class="font-weight-bolder mb-0">Job Market Dashboard</h6>
+          <h6 class="font-weight-bolder mb-0">Jobs Dashboard</h6>
         </nav>
         <div class="collapse navbar-collapse mt-sm-0 mt-2 me-md-0 me-sm-4" id="navbar">
           <div class="ms-md-auto pe-md-3 d-flex align-items-center">
@@ -404,58 +393,8 @@ The one place for all .
       </div>
     </nav>
     <!-- End Navbar -->
-    
-  <!-- -------------------------
-------------------------------------------------------------
+  <!-- ===================================================================================================================================   -->
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-PLACE YOUR CODE HERE!
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
----------------------------------------------------------------->
 <!-- First component layout -->
 <div class="container-fluid">
       <div class="page-header min-height-250 border-radius-xl mt-4" style="background-image: url('../assets/img/curved-images/curved0.jpg'); background-position-y: 50%;">
@@ -478,7 +417,7 @@ PLACE YOUR CODE HERE!
               </p>
             </div>
           </div>
-          <div class="col-lg-4 col-md-6 my-sm-auto ms-sm-auto me-sm-0 mx-auto mt-3">
+          <!-- <div class="col-lg-4 col-md-6 my-sm-auto ms-sm-auto me-sm-0 mx-auto mt-3">
             <div class="nav-wrapper position-relative end-0">
               <ul class="nav nav-pills nav-fill p-1 bg-transparent" role="tablist">
                 <li class="nav-item">
@@ -497,7 +436,7 @@ PLACE YOUR CODE HERE!
                         </g>
                       </g>
                     </svg>
-                    <span class="ms-1">App</span>
+                    <span class="ms-1">Create a job Application</span>
                   </a>
                 </li>
                 <li class="nav-item">
@@ -541,12 +480,377 @@ PLACE YOUR CODE HERE!
                   </a>
                 </li>
               </ul>
-            </div>
-          </div>
+             </div>
+          </div> -->
         </div>
-      </div>
+
+
+
 
       <!-- End of First component layout -->
+
+
+
+  <!-- <div class="bg-white w-full"> -->
+  <div class="container-fluid">
+
+   <!--Main page-->
+      <div class="main h-full flex">
+
+           <!--main section-->
+          <div class="main-section w-40  border-t flex-1 p-6 bg-gray-100">
+              <!--Adding a banner-->
+              <div class="w-full main-section-banner h-44 rounded-lg flex items-end">
+                  <div class="button bg-white w-36 h-10 rounded-full flex justify-center items-center ml-4 cursor-pointer mb-2">
+                      <h4 class="text-bold text-yellow-500">Browse Products</h4>
+                  </div>
+                   
+              </div>
+              <!--Popular categories-->
+              <div class="main-section-categories mt-5 ">
+
+                  <h1 class="popular-categories font-bold text-gray-700 text-2xl flex items-center mb-5">Popular Categories
+                    
+                    <svg class="h-6 w-6 text-yellow-400 ml-2" xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
+                        <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
+                    </svg>  
+                 
+                </h1>  
+
+                  <div class="categories flex ">
+
+                      <div class="icon-desktop h-20 w-20 bg-gray-200 rounded-xl flex justify-center items-center cursor-pointer">
+
+                        <svg class = "h-12 w-12 text-gray-500"xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9.75 17L9 20l-1 1h8l-1-1-.75-3M3 13h18M5 17h14a2 2 0 002-2V5a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
+                        </svg>
+
+                      </div> 
+
+                      <div class="icon-gifts h-20 w-20 bg-gray-200 rounded-xl flex justify-center items-center ml-5 cursor-pointer">
+
+                        <svg  class = "h-12 w-12 text-gray-500" xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v13m0-13V6a2 2 0 112 2h-2zm0 0V5.5A2.5 2.5 0 109.5 8H12zm-7 4h14M5 12a2 2 0 110-4h14a2 2 0 110 4M5 12v7a2 2 0 002 2h10a2 2 0 002-2v-7" />
+                        </svg>
+
+                      </div>
+
+                      <div class="icon-books h-20 w-20 bg-gray-200 rounded-xl flex justify-center items-center ml-5 cursor-pointer">
+
+                        <svg  class = "h-12 w-12 text-gray-500" xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253" />
+                        </svg>
+
+                      </div>
+
+                      <div class="icon-home h-20 w-20 bg-gray-200 rounded-xl flex justify-center items-center ml-5 cursor-pointer">
+
+                        <svg class = "h-12 w-12 text-gray-500" xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 12l2-2m0 0l7-7 7 7M5 10v10a1 1 0 001 1h3m10-11l2 2m-2-2v10a1 1 0 01-1 1h-3m-6 0a1 1 0 001-1v-4a1 1 0 011-1h2a1 1 0 011 1v4a1 1 0 001 1m-6 0h6" />
+                        </svg>
+
+                      </div>
+
+                      <div class="icon-bulb h-20 w-20 bg-gray-200 rounded-xl flex justify-center items-center ml-5 cursor-pointer">
+
+                        <svg class = "h-12 w-12 text-gray-500" xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9.663 17h4.673M12 3v1m6.364 1.636l-.707.707M21 12h-1M4 12H3m3.343-5.657l-.707-.707m2.828 9.9a5 5 0 117.072 0l-.548.547A3.374 3.374 0 0014 18.469V19a2 2 0 11-4 0v-.531c0-.895-.356-1.754-.988-2.386l-.548-.547z" />
+                        </svg>
+
+                      </div>
+
+
+                  </div> 
+   
+              </div>
+              <!--Deals-->
+              <div class="main-section-deals mt-5">
+
+                <h1 class="popular-categories font-bold text-gray-700 text-2xl flex items-center mb-5 mt-5">Professionals near you!
+
+                    <svg  class="h-6 w-6 text-yellow-400 ml-2" xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 18.657A8 8 0 016.343 7.343S7 9 9 10c0-2 .5-5 2.986-7C14 5 16.09 5.777 17.656 7.343A7.975 7.975 0 0120 13a7.975 7.975 0 01-2.343 5.657z" />
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9.879 16.121A3 3 0 1012.015 11L11 14H9c0 .768.293 1.536.879 2.121z" />
+                      </svg>
+                </h1>
+
+                <!--Listing products-->
+                <div class="main-section-products bg-gray-100 w-full flex">
+
+                    <div class="main-product-1">
+
+                        <div class="employ-image w-48 h-52 rounded-lg bg-white p-4">
+                            <img class="w-full h-full object-contain "src="https://upload.wikimedia.org/wikipedia/en/3/3b/SpongeBob_SquarePants_character.svg" alt="image">
+                        </div>
+                        <div class="employ-name font-bold text-gray-700 mt-2 text-sm">
+                            Akhil M Anil
+                        </div>
+                        <div class="employ-job text-green-700 font-bold my-1">
+                            Full Stack Developer
+                        </div>
+                        <div class="employ-rating">
+                            ⭐⭐⭐⭐ 4.5
+                        </div>
+                        <div class="employ-price text-lg">
+                            ₹ 19,099 
+                        </div>
+                        <div class="add-to-cart flex items-center justify-center text-white rounded text-md h-12 w-28 bg-yellow-500 cursor-pointer
+                         hover:bg-yellow-600">
+                            Book an appointment
+                        </div>
+                    </div>
+
+                    <div class="main-product-1 ml-5">
+
+                        <div class="employ-image w-48 h-52 rounded-lg bg-white p-4">
+                            <img class="w-full h-full object-contain "src="https://upload.wikimedia.org/wikipedia/en/thumb/d/d7/Harry_Potter_character_poster.jpg/220px-Harry_Potter_character_poster.jpg" alt="image">
+                        </div>
+                        <div class="employ-name font-bold text-gray-700 mt-2 text-sm">
+                            Harry Potter
+                        </div>
+                        <div class="employ-job text-green-700 font-bold my-1">
+                            Full Time Wizard
+                        </div>
+                        <div class="product-rating">
+                            ⭐⭐⭐⭐ 4.5
+                        </div>
+                        <div class="product-price text-lg">
+                            ₹ 460.00
+                        </div>
+                        <div class="add-to-cart flex items-center justify-center text-white rounded text-md h-12 w-28 bg-yellow-500 cursor-pointer
+                         hover:bg-yellow-600">
+                            Book an appointment
+                        </div>
+                    </div>
+
+                    <div class="main-product-1 ml-5">
+
+                        <div class="employ-image w-48 h-52 rounded-lg bg-white p-4">
+                            <img class="w-full h-full object-contain "src="https://i.pinimg.com/originals/06/74/32/067432ae56db9cde3748d98ec2cfd029.jpg" alt="image">
+                        </div>
+                        <div class="employ-name font-bold text-gray-700 mt-2 text-sm">
+                            Fix-it-Felix
+                        </div>
+                        <div class="employ-job text-green-700 font-bold my-1">
+                           Electrician/Plumber
+                        </div>
+                        <div class="employ-rating">
+                            ⭐⭐⭐ 3.5
+                        </div>
+                        <div class="employ-price text-lg">
+                            ₹ 1,500
+
+                        </div>
+                        <div class="add-to-cart flex items-center justify-center text-white rounded text-md h-12 w-28 bg-yellow-500 cursor-pointer
+                         hover:bg-yellow-600">
+                            Book an appointment
+                        </div>
+                    </div>
+
+                    <div class="main-product-1 ml-5">
+
+                        <div class="product-image w-48 h-52 rounded-lg bg-white p-4">
+                            <img class="w-full h-full object-contain "src="http://www.factfiend.com/wp-content/uploads/2014/07/clark.jpg" alt="image">
+                        </div>
+                        <div class="product-name font-bold text-gray-700 mt-2 text-sm">
+                            clark Kent
+                        </div>
+                        <div class="product-make text-green-700 font-bold my-1">
+                            Journalist
+                        </div>
+                        <div class="product-rating">
+                            ⭐⭐⭐ 3.5
+                        </div>
+                        <div class="product-price text-lg">
+                            ₹ 1,400
+
+                        </div>
+                        <div class="add-to-cart flex items-center justify-center text-white rounded text-md h-12 w-28 bg-yellow-500 cursor-pointer
+                         hover:bg-yellow-600">
+                            Book an appointment
+                        </div>
+                    </div>
+
+                    <div class="main-product-1 ml-5">
+
+                        <div class="employ-image w-48 h-52 rounded-lg bg-white p-4">
+                            <img class="w-full h-full object-contain "src="https://upload.wikimedia.org/wikipedia/en/thumb/c/c5/Bob_the_builder.jpg/220px-Bob_the_builder.jpg" alt="image">
+                        </div>
+                        <div class="employ-name font-bold text-gray-700 mt-2 text-sm">
+                            Bob The Builder
+                        </div>
+                        <div class="employ-job text-green-700 font-bold my-1">
+                            Architect
+                        </div>
+                        <div class="employ-rating">
+                            ⭐⭐⭐⭐ 4.5
+                        </div>
+                        <div class="employ-price text-lg">
+                            ₹ 30.00
+
+                        </div>
+                        <div class="add-to-cart flex items-center justify-center text-white rounded text-md h-12 w-28 bg-yellow-500 cursor-pointer
+                         hover:bg-yellow-600">
+                            Book an appointment
+                        </div>
+                        
+                    </div>
+
+                    
+
+
+                   
+                    
+
+                </div>
+
+
+              </div>
+          </div>
+          <div class=" border-t-2 border-r-2 border-opacity-10 border-gray-700 main-sidebar w-1.5/5  bg-white p-4">
+            <!--Categories for side bar-->
+              <div class="sidebar-categories">
+
+                  <div class="sidebar-main-categories text-black cursor-pointer flex ease-in font-bold mb-4 p-2 bg-gradient-to-r from-green-400 via-blue-300 to-blue-500 ..  hover:from-green-400 hover:to-blue-500 rounded-xl hover:from-green-400 hover:to-blue-500">
+
+                    <span class="w-8">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6a2 2 0 012-2h2a2 2 0 012 2v2a2 2 0 01-2 2H6a2 2 0 01-2-2V6zM14 6a2 2 0 012-2h2a2 2 0 012 2v2a2 2 0 01-2 2h-2a2 2 0 01-2-2V6zM4 16a2 2 0 012-2h2a2 2 0 012 2v2a2 2 0 01-2 2H6a2 2 0 01-2-2v-2zM14 16a2 2 0 012-2h2a2 2 0 012 2v2a2 2 0 01-2 2h-2a2 2 0 01-2-2v-2z" />
+                        </svg>
+                    </span>                   
+
+                    <span>Categories</span>
+
+                  </div>
+                  <a href="Electronics.html">
+                  <div class="sidebar-main-category cursor-pointer flex font-bold text-black mb-2 p-2">
+
+                      <span class="w-8"></span>
+
+                      <span>Electrical Work</span>
+                  </div>
+                </a>
+
+                <a href="groceries.html">
+                  <div class="sidebar-main-category cursor-pointer flex font-bold text-black mb-2 p-2">
+
+                    <span class="w-8"></span>
+
+                    <span>Plumbing</span>
+                </div>
+                </a>
+
+                <a href="fashion.html">
+                <div class="sidebar-main-category cursor-pointer flex font-bold text-black  mb-2 p-2">
+
+                    <span class="w-8"></span>
+
+                    <span>Fashion</span>
+                </div>
+                </a>
+                
+                <a href="books.html">
+                <div class="sidebar-main-category cursor-pointer flex font-bold text-black  mb-2 p-2">
+
+                    <span class="w-8"></span>
+
+                    <span>Books</span>
+                </div>
+                </a>
+                <a href="furniture.html">
+                <div class="sidebar-main-category cursor-pointer flex font-bold text-black  mb-2 p-2">
+
+                    <span class="w-8"></span>
+
+                    <span>Furniture</span>
+                </div>
+                </a>
+                <a href="dailyneeds.html">
+                <div class="sidebar-main-category cursor-pointer flex font-bold text-black  mb-2 p-2">
+
+                    <span class="w-8"></span>
+
+                    <span>Daily Needs</span>
+                </div>
+                </a>
+
+                <a href="refurbished.html">
+                <div class="sidebar-main-category cursor-pointer flex font-bold text-black  mb-2 p-2">
+
+                    <span class="w-8"></span>
+
+                    <span>Software Engineers</span>
+                </div>
+                </a>
+
+                <div class="sidebar-main-category cursor-pointer flex font-bold text-black  mb-4 p-2 rounded-lg bg-gradient-to-r from-green-400 via-blue-300 to-blue-500 ..  hover:from-green-400 hover:to-blue-500 hover:from-green-400 hover:to-blue-500">
+
+                    <span class="w-8">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 5l7 7-7 7M5 5l7 7-7 7" />
+                          </svg>
+                    </span>
+
+                    <span>Create a job application</span>
+                </div>
+
+                <div class="sidebar-main-category cursor-pointer flex font-bold text-black  mb-2 p-2 hover:bg-purple-200 rounded-xl bg-gradient-to-r from-green-400 via-blue-300 to-blue-500 ..  hover:from-green-400 hover:to-blue-500 hover:from-green-400 hover:to-blue-500">
+
+                    <span class="w-8">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8.228 9c.549-1.165 2.03-2 3.772-2 2.21 0 4 1.343 4 3 0 1.4-1.278 2.575-3.006 2.907-.542.104-.994.54-.994 1.093m0 3h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+                          </svg>                  
+                     </span>
+
+                    <span>Help</span>
+                </div>
+
+              </div>
+
+          </div>
+
+
+
+      </div>
+
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
       <!-- Start of footer -->
@@ -651,6 +955,7 @@ PLACE YOUR CODE HERE!
       </div>
     </div>
   </div>
+</div>
   <!--   Core JS Files   -->
   <script src="../assets/js/core/popper.min.js"></script>
   <script src="../assets/js/core/bootstrap.min.js"></script>
