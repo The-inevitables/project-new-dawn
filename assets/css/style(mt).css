@@ -1,0 +1,9 @@
+.main-section-banner{
+    background-image: url("https://i.ibb.co/JnmTD12/banner.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
+.cart-logo{
+    background-image: "../assets/img/illustrations/shoping_cart.png";
+}
