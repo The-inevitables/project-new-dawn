@@ -221,7 +221,7 @@
         <div class="section-title text-center">
 
           <h2>Team Member</h2>
-          <p class="separator">Integer cursus bibendum augue ac cursus .</p>
+          <p class="separator">A dedicated team to solve your problems.</p>
         </div>
 
         <div class="row">
