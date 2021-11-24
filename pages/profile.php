@@ -1095,7 +1095,7 @@ The one place for all .
 
 <!-- TASK: add weavy javascript library here -->
 <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
-<script src="https://localhost:44323/javascript/weavy.js"></script>
+<script src="https://weavy-demo.azurewebsites.net/javascript/weavy.min.js"></script>
 <!-- <script src="https://localhost:44323/javascript/weavy.jquery.min.js"></script>
 <script>var weavy = new Weavy();</script> -->
 
