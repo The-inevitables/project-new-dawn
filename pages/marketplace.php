@@ -519,6 +519,10 @@ PLACE YOUR CODE HERE!-->
                         <div class="product-price text-lg">
                             ₹ 460.00
                         </div>
+                        <div class="add-to-cart flex items-center justify-center text-white rounded text-md h-8 w-28 bg-yellow-500 cursor-pointer
+                         hover:bg-yellow-600">
+                            Add to cart
+                        </div>
                     </div>
 
                     <div class="main-product-1 ml-5">
@@ -538,6 +542,10 @@ PLACE YOUR CODE HERE!-->
                         <div class="product-price text-lg">
                             ₹ 1,500
 
+                        </div>
+                        <div class="add-to-cart flex items-center justify-center text-white rounded text-md h-8 w-28 bg-yellow-500 cursor-pointer
+                         hover:bg-yellow-600">
+                            Add to cart
                         </div>
                     </div>
 
@@ -559,6 +567,10 @@ PLACE YOUR CODE HERE!-->
                             ₹ 1,500
 
                         </div>
+                        <div class="add-to-cart flex items-center justify-center text-white rounded text-md h-8 w-28 bg-yellow-500 cursor-pointer
+                         hover:bg-yellow-600">
+                            Add to cart
+                        </div>
                     </div>
 
                     <div class="main-product-1 ml-5">
@@ -579,6 +591,10 @@ PLACE YOUR CODE HERE!-->
                             ₹ 30.00
 
                         </div>
+                        <div class="add-to-cart flex items-center justify-center text-white rounded text-md h-8 w-28 bg-yellow-500 cursor-pointer
+                         hover:bg-yellow-600">
+                            Add to cart
+                        </div>
                     </div>
 
                     
@@ -595,11 +611,11 @@ PLACE YOUR CODE HERE!-->
           <div class=" border-t-2 border-r-2 border-opacity-20 border-gray-700 main-sidebar w-1.5/5  bg-white p-6">
             <!--Categories for side bar-->
               <div class="sidebar-categories">
+                  <a href="marketplace.php">
+                  <div class="sidebar-main-categories text-black cursor-pointer flex ease-in font-bold mb-4 p-2 bg-gradient-to-r from-gray-400 via-gray-300 to-gray-150.  hover:from-green-400 hover:to-blue-500 rounded-xl hover:from-green-400 hover:to-blue-500">
 
-                  <div class="sidebar-main-categories text-black cursor-pointer flex ease-in font-bold mb-4 p-2 bg-gradient-to-r from-green-400 via-blue-300 to-blue-500 ..  hover:from-green-400 hover:to-blue-500 rounded-xl hover:from-green-400 hover:to-blue-500">
-
-                    <span class="w-8">
-                        <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <span class="w-10 items-center justify-center ">
+                        <svg class="text-black ml-1" xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6a2 2 0 012-2h2a2 2 0 012 2v2a2 2 0 01-2 2H6a2 2 0 01-2-2V6zM14 6a2 2 0 012-2h2a2 2 0 012 2v2a2 2 0 01-2 2h-2a2 2 0 01-2-2V6zM4 16a2 2 0 012-2h2a2 2 0 012 2v2a2 2 0 01-2 2H6a2 2 0 01-2-2v-2zM14 16a2 2 0 012-2h2a2 2 0 012 2v2a2 2 0 01-2 2h-2a2 2 0 01-2-2v-2z" />
                         </svg>
                     </span>                   
@@ -607,8 +623,21 @@ PLACE YOUR CODE HERE!-->
                     <span>Categories</span>
 
                   </div>
-                  <a href="Electronics.html">
-                  <div class="sidebar-main-category cursor-pointer flex font-bold text-black mb-2 p-2">
+                  </a>
+                  
+                  <a href="mkt-2-cart.php">
+                  <div class="sidebar-main-category rounded-lg cursor-pointer flex font-bold text-black mb-2 p-2 hover:bg-gray-200">
+
+                  <span class="w-10 mr-2 items-center justify-center ">
+                      <img src="https://cdn-icons-png.flaticon.com/128/2331/2331970.png" alt="">
+                    </span> 
+
+                      <span class=>My Cart</span>
+                  </div>
+                </a>
+
+                  <a href="mkt-1-electronics.php">
+                  <div class="sidebar-main-category rounded-lg cursor-pointer flex font-bold text-black mb-2 p-2 hover:bg-gray-200">
 
                       <span class="w-8"></span>
 
@@ -616,8 +645,8 @@ PLACE YOUR CODE HERE!-->
                   </div>
                 </a>
 
-                <a href="groceries.html">
-                  <div class="sidebar-main-category cursor-pointer flex font-bold text-black mb-2 p-2">
+                <a href="mkt-3-groceries.php">
+                  <div class="sidebar-main-category rounded-lg cursor-pointer flex font-bold text-black mb-2 p-2 hover:bg-gray-200">
 
                     <span class="w-8"></span>
 
@@ -625,8 +654,8 @@ PLACE YOUR CODE HERE!-->
                 </div>
                 </a>
 
-                <a href="fashion.html">
-                <div class="sidebar-main-category cursor-pointer flex font-bold text-black  mb-2 p-2">
+                <a href="mkt-4-fashion.php">
+                <div class="sidebar-main-category rounded-lg cursor-pointer flex font-bold text-black  mb-2 p-2 hover:bg-gray-200">
 
                     <span class="w-8"></span>
 
@@ -634,24 +663,24 @@ PLACE YOUR CODE HERE!-->
                 </div>
                 </a>
                 
-                <a href="books.html">
-                <div class="sidebar-main-category cursor-pointer flex font-bold text-black  mb-2 p-2">
+                <a href="mkt-5-books.php">
+                <div class="sidebar-main-category rounded-lg cursor-pointer flex font-bold text-black  mb-2 p-2 hover:bg-gray-200">
 
                     <span class="w-8"></span>
 
                     <span>Books</span>
                 </div>
                 </a>
-                <a href="furniture.html">
-                <div class="sidebar-main-category cursor-pointer flex font-bold text-black  mb-2 p-2">
+                <a href="mkt-6-home.php">
+                <div class="sidebar-main-category rounded-lg cursor-pointer flex font-bold text-black  mb-2 p-2 hover:bg-gray-200">
 
                     <span class="w-8"></span>
 
                     <span>Home and furniture</span>
                 </div>
                 </a>
-                <a href="dailyneeds.html">
-                <div class="sidebar-main-category cursor-pointer flex font-bold text-black  mb-2 p-2">
+                <a href="mkt-7-dailyn.php">
+                <div class="sidebar-main-category rounded-lg cursor-pointer flex font-bold text-black  mb-2 p-2 hover:bg-gray-200">
 
                     <span class="w-8"></span>
 
@@ -659,8 +688,8 @@ PLACE YOUR CODE HERE!-->
                 </div>
                 </a>
 
-                <a href="refurbished.html">
-                <div class="sidebar-main-category cursor-pointer flex font-bold text-black  mb-2 p-2">
+                <a href="mkt-8-refurbished.php">
+                <div class="sidebar-main-category  rounded-lg cursor-pointer flex font-bold text-black  mb-2 p-2 hover:bg-gray-200">
 
                     <span class="w-8"></span>
 
@@ -668,7 +697,7 @@ PLACE YOUR CODE HERE!-->
                 </div>
                 </a>
 
-                <div class="sidebar-main-category cursor-pointer flex font-bold text-black  mb-4 p-2 rounded-lg bg-gradient-to-r from-green-400 via-blue-300 to-blue-500 ..  hover:from-green-400 hover:to-blue-500 hover:from-green-400 hover:to-blue-500">
+                <div class="sidebar-main-category cursor-pointer flex font-bold text-black  mb-4 p-2 rounded-lg bg-gradient-to-r from-gray-400 via-gray-300 to-gray-150. ..  hover:from-green-400 hover:to-blue-500 hover:from-green-400 hover:to-blue-500">
 
                     <span class="w-8">
                         <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
@@ -679,7 +708,7 @@ PLACE YOUR CODE HERE!-->
                     <span>Sell on the Maretplace</span>
                 </div>
 
-                <div class="sidebar-main-category cursor-pointer flex font-bold text-black  mb-2 p-2 hover:bg-purple-200 rounded-xl bg-gradient-to-r from-green-400 via-blue-300 to-blue-500 ..  hover:from-green-400 hover:to-blue-500 hover:from-green-400 hover:to-blue-500">
+                <div class="sidebar-main-category cursor-pointer flex font-bold text-black  mb-2 p-2 hover:bg-purple-200 rounded-xl bg-gradient-to-r from-gray-400 via-gray-300 to-gray-150.. ..  hover:from-green-400 hover:to-blue-500 hover:from-green-400 hover:to-blue-500">
 
                     <span class="w-8">
                         <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
