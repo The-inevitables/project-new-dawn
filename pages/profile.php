@@ -30,6 +30,22 @@ The one place for all .
   <link href="../assets/css/nucleo-svg.css" rel="stylesheet" />
   <!-- CSS Files -->
   <link id="pagestyle" href="../assets/css/soft-ui-dashboard.css?v=1.0.3" rel="stylesheet" />
+  <style>
+        .unread-badge {
+            background: #F92;
+            position: absolute;
+            top: 15px;
+            left: 18px;
+            width: 10px;
+            height: 10px;
+            border-radius: 10px;
+            z-index: 10;
+            display: none;
+        }
+        #instant-chat.has-unread .unread-badge {
+            display: block;
+        }
+    </style>
 </head>
 
 <body class="g-sidenav-show  bg-gray-100">
@@ -633,58 +649,13 @@ The one place for all .
               <h6 class="mb-0">Conversations</h6>
             </div>
             <div class="card-body p-3">
-              <ul class="list-group">
-                <li class="list-group-item border-0 d-flex align-items-center px-0 mb-2">
-                  <div class="avatar me-3">
-                    <img src="../assets/img/kal-visuals-square.jpg" alt="kal" class="border-radius-lg shadow">
-                  </div>
-                  <div class="d-flex align-items-start flex-column justify-content-center">
-                    <h6 class="mb-0 text-sm">Sophie B.</h6>
-                    <p class="mb-0 text-xs">Hi! I need more information..</p>
-                  </div>
-                  <a class="btn btn-link pe-3 ps-0 mb-0 ms-auto" href="javascript:;">Reply</a>
-                </li>
-                <li class="list-group-item border-0 d-flex align-items-center px-0 mb-2">
-                  <div class="avatar me-3">
-                    <img src="../assets/img/marie.jpg" alt="kal" class="border-radius-lg shadow">
-                  </div>
-                  <div class="d-flex align-items-start flex-column justify-content-center">
-                    <h6 class="mb-0 text-sm">Anne Marie</h6>
-                    <p class="mb-0 text-xs">Awesome work, can you..</p>
-                  </div>
-                  <a class="btn btn-link pe-3 ps-0 mb-0 ms-auto" href="javascript:;">Reply</a>
-                </li>
-                <li class="list-group-item border-0 d-flex align-items-center px-0 mb-2">
-                  <div class="avatar me-3">
-                    <img src="../assets/img/ivana-square.jpg" alt="kal" class="border-radius-lg shadow">
-                  </div>
-                  <div class="d-flex align-items-start flex-column justify-content-center">
-                    <h6 class="mb-0 text-sm">Ivanna</h6>
-                    <p class="mb-0 text-xs">About files I can..</p>
-                  </div>
-                  <a class="btn btn-link pe-3 ps-0 mb-0 ms-auto" href="javascript:;">Reply</a>
-                </li>
-                <li class="list-group-item border-0 d-flex align-items-center px-0 mb-2">
-                  <div class="avatar me-3">
-                    <img src="../assets/img/team-4.jpg" alt="kal" class="border-radius-lg shadow">
-                  </div>
-                  <div class="d-flex align-items-start flex-column justify-content-center">
-                    <h6 class="mb-0 text-sm">Peterson</h6>
-                    <p class="mb-0 text-xs">Have a great afternoon..</p>
-                  </div>
-                  <a class="btn btn-link pe-3 ps-0 mb-0 ms-auto" href="javascript:;">Reply</a>
-                </li>
-                <li class="list-group-item border-0 d-flex align-items-center px-0">
-                  <div class="avatar me-3">
-                    <img src="../assets/img/team-3.jpg" alt="kal" class="border-radius-lg shadow">
-                  </div>
-                  <div class="d-flex align-items-start flex-column justify-content-center">
-                    <h6 class="mb-0 text-sm">Nick Daniel</h6>
-                    <p class="mb-0 text-xs">Hi! I need more information..</p>
-                  </div>
-                  <a class="btn btn-link pe-3 ps-0 mb-0 ms-auto" href="javascript:;">Reply</a>
-                </li>
-              </ul>
+
+            <div id="instant-chat" class="has-unread">
+            <div class="unread-badge"></div>
+            <i class="lni lni-comments"></i>
+            </div>
+                  <div id="weavy-chat" style="height:95vh;"></div>
+
             </div>
           </div>
         </div>
@@ -1115,6 +1086,31 @@ The one place for all .
   <script async defer src="https://buttons.github.io/buttons.js"></script>
   <!-- Control Center for Soft Dashboard: parallax effects, scripts for the example pages etc -->
   <script src="../assets/js/soft-ui-dashboard.min.js?v=1.0.3"></script>
+
+  <!-- Containter for Weavy Messenger -->
+  <div id="weavy-messenger-container"></div>
+
+<!-- App js -->
+<script src="assets/js/app.js"></script>
+
+<!-- TASK: add weavy javascript library here -->
+<script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+<script src="https://localhost:44323/javascript/weavy.js"></script>
+<!-- <script src="https://localhost:44323/javascript/weavy.jquery.min.js"></script>
+<script>var weavy = new Weavy();</script> -->
+
+<!-- weavy client script -->
+<!-- <script src="assets/js/weavy.js"></script> -->
+<script>
+  var jwt = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJkZW1vdXNlciIsIm5hbWUiOiJhZG1pbiIsImV4cCI6MjUxNjIzOTAyMiwiaXNzIjoidGhlaW5ldml0YWJsZXMiLCJjbGllbnRpZCI6InRoZWluZXZpdGFibGVzIiwiY2xpZW50c2VjcmV0IjoidGhlaW5ldml0YWJsZXMiLCJlbWFpbCI6ImFraGlsbWFuaWwwQGdtYWlsLmNvbSIsInBhc3N3b3JkIjoiYWtoaWxAMTIzIiwidXNlcm5hbWUiOiJhZG1pbiJ9.pO_8T5Z4j7dcps_Oj2DYWGDPEtPL-zt4nK1eg-eOtBs";
+  var weavy = new Weavy({ jwt: jwt });
+  var space = weavy.space({ key: "demo" });
+  space.app({
+    key: "chat-demo",
+    type: "messenger",
+    container: "#weavy-chat"
+  });
+</script>
 </body>
 
 </html>
