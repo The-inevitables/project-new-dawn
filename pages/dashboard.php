@@ -853,7 +853,7 @@ The one place for all .
 <!-- weavy client script -->
 <!-- <script src="assets/js/weavy.js"></script> -->
 <script>
-  var jwt = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJkZW1vdXNlciIsIm5hbWUiOiJhZG1pbiIsImV4cCI6MjUxNjIzOTAyMiwiaXNzIjoidGhlaW5ldml0YWJsZXMiLCJjbGllbnRpZCI6InRoZWluZXZpdGFibGVzIiwiY2xpZW50c2VjcmV0IjoidGhlaW5ldml0YWJsZXMiLCJlbWFpbCI6ImFraGlsbWFuaWwwQGdtYWlsLmNvbSIsInBhc3N3b3JkIjoiYWtoaWxAMTIzIiwidXNlcm5hbWUiOiJhZG1pbiJ9.pO_8T5Z4j7dcps_Oj2DYWGDPEtPL-zt4nK1eg-eOtBs";
+  var jwt = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJkZW1vdXNlciIsIm5hbWUiOiJBa2hpbCBNIEFuaWwiLCJleHAiOjI1MTYyMzkwMjIsImlzcyI6InRoZWluZXZpdGFibGVzIiwiY2xpZW50aWQiOiJ0aGVpbmV2aXRhYmxlcyIsImNsaWVudHNlY3JldCI6InRoZWluZXZpdGFibGVzIiwiZW1haWwiOiJha2hpbG1hbmlsMTIzQGdtYWlsLmNvbSIsInBhc3N3b3JkIjoiYWtoaWxAMTIzIiwidXNlcm5hbWUiOiJha2hpbF8xIn0.DfQ19AOqPyVmjXxxW-ELNeY88SRtLFo6rI83iulJh5g";
   var weavy = new Weavy({ jwt: jwt });
   var space = weavy.space({ key: "feeds" });
   space.app({
