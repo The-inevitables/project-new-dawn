@@ -425,7 +425,7 @@ The one place for all .
                         Place where like minded developers come together to innovate.
                       </p>
                       <div class="d-flex align-items-center justify-content-between">
-                        <a href="devclubs.php" type="button" class="btn btn-outline-primary btn-sm mb-0">Join Club</a>
+                        <a href="devclub.php" type="button" class="btn btn-outline-primary btn-sm mb-0">Join Club</a>
                         <div class="avatar-group mt-2">
                           <a href="javascript:;" class="avatar avatar-xs rounded-circle" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Elena Morison">
                             <img alt="Image placeholder" src="../assets/img/team-1.jpg">
