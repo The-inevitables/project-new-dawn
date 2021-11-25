@@ -536,7 +536,7 @@ The one place for all .
                 </div>
                 <div class="col-4 text-end">
                   <div class="icon icon-shape bg-gradient-primary shadow text-center border-radius-md">
-                    <i class="ni ni-cart text-lg opacity-10" aria-hidden="true"></i>
+                    <i class="ni ni-pin-3 text-lg opacity-10" aria-hidden="true"></i>
                   </div>
                 </div>
               </div>
