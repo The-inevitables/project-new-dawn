@@ -64,7 +64,7 @@
                       <input type="text" class="form-control" placeholder="Home Town" name="hometown" aria-label="hometown" aria-describedby="hometown-addon">
                     </div>
                     <div class="text-center">
-                      <button type="submit" class="btn bg-gradient-info w-100 mt-4 mb-0">Continue</button>
+                      <button type="submit" class="btn bg-gradient-info w-100 mt-4 mb-0">Submit</button>
                     </div>
                   </form>
                 </div>
@@ -86,19 +86,19 @@
     <div class="container">
       <div class="row">
         <div class="col-lg-8 mb-4 mx-auto text-center">
-          <a href="javascript:;" target="_blank" class="text-secondary me-xl-5 me-3 mb-sm-0 mb-2">
+          <a href="https://github.com/The-inevitables/project-new-dawn" target="_blank" class="text-secondary me-xl-5 me-3 mb-sm-0 mb-2">
             Company
           </a>
-          <a href="javascript:;" target="_blank" class="text-secondary me-xl-5 me-3 mb-sm-0 mb-2">
+          <a href="https://github.com/The-inevitables/project-new-dawn" target="_blank" class="text-secondary me-xl-5 me-3 mb-sm-0 mb-2">
             About Us
           </a>
-          <a href="javascript:;" target="_blank" class="text-secondary me-xl-5 me-3 mb-sm-0 mb-2">
+          <a href="https://github.com/The-inevitables/project-new-dawn" target="_blank" class="text-secondary me-xl-5 me-3 mb-sm-0 mb-2">
             Team
           </a>
-          <a href="javascript:;" target="_blank" class="text-secondary me-xl-5 me-3 mb-sm-0 mb-2">
+          <a href="https://github.com/The-inevitables/project-new-dawn" target="_blank" class="text-secondary me-xl-5 me-3 mb-sm-0 mb-2">
             Products
           </a>
-          <a href="javascript:;" target="_blank" class="text-secondary me-xl-5 me-3 mb-sm-0 mb-2">
+          <a href="https://github.com/The-inevitables/project-new-dawn" target="_blank" class="text-secondary me-xl-5 me-3 mb-sm-0 mb-2">
             Blog
           </a>
           
@@ -126,7 +126,7 @@
           <p class="mb-0 text-secondary">
             Copyright © <script>
               document.write(new Date().getFullYear())
-            </script> Soft by Creative Tim.
+            </script> Team Inevitables
           </p>
         </div>
       </div>
