@@ -485,7 +485,7 @@ The one place for all .
                   <div class="card card-blog card-plain">
                     <div class="position-relative">
                       <a class="d-block shadow-xl border-radius-xl">
-                        <img src="../assets/img/reader.jpg" alt="img-blur-shadow" class="img-fluid shadow border-radius-xl">
+                        <img src="../assets/img/readers.jpg" alt="img-blur-shadow" class="img-fluid shadow border-radius-xl">
                       </a>
                     </div>
                     <div class="card-body px-1 pb-0">
