@@ -62,9 +62,9 @@
       <img src="assets/img/hero-img.png" alt="Hero Imgs" data-aos="zoom-out" data-aos-delay="100">
       <a href="pages/sign-in.php" class="btn-get-started scrollto">Get Started</a>
       <div class="btns">
-        <a href="dashboard/pages/team.php"><i class="fa fa-apple fa-3x"></i> Join Us!</a>
-        <a href="dashboard/pages/1.php"><i class="fa fa-play fa-3x"></i> Job Finder</a>
-        <a href="dashboard/pages/2.php"><i class="fa fa-windows fa-3x"></i> Marketplace</a>
+        <a href="pages/team.php"><i class="fa fa-apple fa-3x"></i> Join Us!</a>
+        <a href="pages/1.php"><i class="fa fa-play fa-3x"></i> Job Finder</a>
+        <a href="pages/2.php"><i class="fa fa-windows fa-3x"></i> Marketplace</a>
       </div>
     </div>
   </section><!-- End Hero Section -->
