@@ -455,12 +455,16 @@ The one place for all .
     </nav>
     <!-- End Navbar -->
     <div class="container-fluid py-4">
+      
       <div class="row">
+        
         <div class="col-xl-3 col-sm-6 mb-xl-0 mb-4">
+          
           <div class="card">
             <div class="card-body p-3">
-              <div class="row">
-                <div class="col-8">
+              
+                 <div class="row">
+                 <div class="col-8">
                   <div class="numbers">
                     <p class="text-sm mb-0 text-capitalize font-weight-bold">Today's Money</p>
                     <h5 class="font-weight-bolder mb-0">
@@ -478,25 +482,33 @@ The one place for all .
             </div>
           </div>
         </div>
-        <div class="col-xl-3 col-sm-6 mb-xl-0 mb-4">
+        <div class="col-xl-3 col-sm-6 mb-xl-0 mb-4 ">
           <div class="card">
-            <div class="card-body p-3">
-              <div class="row">
-                <div class="col-8">
-                  <div class="numbers">
-                    <p class="text-sm mb-0 text-capitalize font-weight-bold">Today's Weather</p>
-                    <h5 class="font-weight-bolder mb-0">
-                      Kochi &nbsp;
-                      <span class="text-success text-sm font-weight-bolder">27.3<span>&#8451;</span></span>
-                    </h5>
-                  </div>
-                </div>
-                <div class="col-4 text-end">
-                  <div class="icon icon-shape bg-gradient-primary shadow text-center border-radius-md">
-                    <i class="ni ni-world text-lg opacity-10" aria-hidden="true"></i>
-                  </div>
-                </div>
-              </div>
+            <div class="card-body p-3 align=center">
+              <!-- weather widget start -->
+              <div id="m-booked-prime-78506">
+                 <div class="booked-wzsp-prime-in">
+                    <div class="booked-wzsp-prime-data">
+                      <div class="booked-wzsp-prime-img wt18">
+                       </div> 
+                       <div class="booked-wzsp-day-val">
+                          <div class="booked-wzsp-day-number">
+                                  <span class="plus">+</span>29</div>
+                                   <div class="booked-wzsp-day-dergee"> 
+                                     <div class="booked-wzsp-day-dergee-val">&deg;</div> 
+                                        <div class="booked-wzsp-day-dergee-name">C</div>
+                                      </div> 
+                                    </div>
+                                   </div>
+                                   </div> 
+                                  </div> 
+                   <script type="text/javascript"> var css_file=document.createElement("link"); 
+                   var widgetUrl = location.href; css_file.setAttribute("rel","stylesheet"); css_file.setAttribute("type","text/css"); 
+                   css_file.setAttribute("href",'https://s.bookcdn.com/css/w/booked-wzs-widget-prime.css?v=0.0.1');
+                    document.getElementsByTagName("head")[0].appendChild(css_file);
+                     function setWidgetData_78506(data) { if(typeof(data) != 'undefined' && data.results.length > 0) { for(var i = 0; i < data.results.length; ++i) { var objMainBlock = document.getElementById('m-booked-prime-78506'); if(objMainBlock !== null) { var copyBlock = document.getElementById('m-bookew-weather-copy-'+data.results[i].widget_type); objMainBlock.innerHTML = data.results[i].html_code; if(copyBlock !== null) objMainBlock.appendChild(copyBlock); } } } else { alert('data=undefined||data.results is empty'); } } var widgetSrc = "https://widgets.booked.net/weather/info?action=get_weather_info;ver=7;cityID=154618;type=5;scode=124;ltid=3458;domid=w209;anc_id=69966;countday=undefined;cmetric=1;wlangID=1;color=137AE9;wwidth=160;header_color=ffffff;text_color=333333;link_color=08488D;border_form=1;footer_color=ffffff;footer_text_color=333333;transparent=0;v=0.0.1";widgetSrc += ';ref=' + widgetUrl;widgetSrc += ';rand_id=78506';var weatherBookedScript = document.createElement("script"); weatherBookedScript.setAttribute("type", "text/javascript"); weatherBookedScript.src = widgetSrc; document.body.appendChild(weatherBookedScript) </script>
+                <!-- weather widget end -->
+              
             </div>
           </div>
         </div>
