@@ -10,7 +10,7 @@ $dob =  $_POST['dob'];
 $hometown =  $_POST['hometown'];
 
 
-$params = array($dob,$gender,$country,$state,$hometown);
+$params = array($fullname,$email,$phone,$bloodgroup,$dob,$hometown);
 $sql="INSERT INTO volunteer (fullname, email, phone, bloodgroup, dob, hometown)
 VALUES (?,?,?,?,?,?)";
 
