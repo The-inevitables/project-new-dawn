@@ -30,6 +30,16 @@ The one place for all .
   <link href="../assets/css/nucleo-svg.css" rel="stylesheet" />
   <!-- CSS Files -->
   <link id="pagestyle" href="../assets/css/soft-ui-dashboard.css?v=1.0.3" rel="stylesheet" />
+
+  <style>
+        body.loading {
+            visibility: hidden;
+        }
+        #feed-container {
+                            width: 100%;
+                            height: 500px;
+                         }  
+    </style>      
 </head>
 
 <body class="g-sidenav-show  bg-gray-100">
@@ -239,7 +249,11 @@ The one place for all .
                 </g>
               </svg>
             </div>
-            <span class="nav-link-text ms-1">Sign In</span>
+            <span class="nav-link-text ms-1">
+            <?php
+                include "phpqueries/name.php"                 
+                ?>
+            </span>
           </a>
         </li>
         <li class="nav-item">
@@ -288,22 +302,7 @@ The one place for all .
         </li>
       </ul>
     </div>
-    <div class="sidenav-footer mx-3 ">
-      <div class="card card-background shadow-none card-background-mask-secondary" id="sidenavCard">
-        <div class="full-background" style="background-image: url('../assets/img/curved-images/white-curved.jpeg')"></div>
-        <div class="card-body text-start p-3 w-100">
-          <div class="icon icon-shape icon-sm bg-white shadow text-center mb-3 d-flex align-items-center justify-content-center border-radius-md">
-            <i class="ni ni-diamond text-dark text-gradient text-lg top-0" aria-hidden="true" id="sidenavCardIcon"></i>
-          </div>
-          <div class="docs-info">
-            <h6 class="text-white up mb-0">Need help?</h6>
-            <p class="text-xs font-weight-bold">Please check our docs</p>
-            <a href="https://www.creative-tim.com/learning-lab/bootstrap/license/soft-ui-dashboard" target="_blank" class="btn btn-white btn-sm w-100 mb-0">Documentation</a>
-          </div>
-        </div>
-      </div>
-      <a class="btn bg-gradient-primary mt-4 w-100" href="https://www.creative-tim.com/product/soft-ui-dashboard-pro?ref=sidebarfree" type="button">Upgrade to pro</a>
-    </div>
+    
   </aside>
   <main class="main-content position-relative max-height-vh-100 h-100 mt-1 border-radius-lg ">
     <!-- Navbar -->
@@ -441,58 +440,56 @@ The one place for all .
     </nav>
     <!-- End Navbar -->
     
-  <!-- -------------------------
-------------------------------------------------------------
+    <div class="container-fluid">
+      <div class="page-header min-height-250 border-radius-xl mt-4" style="background-image: url('../assets/img/curved-images/curved0.jpg'); background-position-y: 50%;">
+        <span class="mask bg-gradient-primary opacity-6"></span>
+      </div>
+      <div class="card card-body blur shadow-blur mx-4 mt-n6 overflow-hidden">
+        <div class="row gx-4">
+          <div class="col-auto">
+           
+          </div>
+          <div class="col-auto my-auto" > 
+            <div class="h-100" >
+              <h5 class="mb-1" >
+                Community Forum
+              </h5>
+              <p class="mb-0 font-weight-bold text-sm">
+                Suggestions, Remark, Reviews are posted here!
+              </p>
+              
+            </div>
 
+            
+          </div>
 
+        </div>
+    </div>
+    <div class="container-fluid py-4">
+      <div class="row">
+        <div class="col-12 col-xl-12">
+          <div class="card h-100">
+            <div class="card-header pb-0 p-3">
+              <h6 class="mb-0">Forum Feeds</h6>
+            </div>
 
+            <div class="row mt-4">
+        <div class="col-lg-12 ">
+          <div class="card">
+            <div class="card-body p-3">          
+                  
+              <div id="feed-container"></div>                  
+            </div>
+                <div class="col-lg-5 ms-auto text-center mt-5 mt-lg-0">  
+        
+            </div>
+          </div>
+        </div>
+        </div>
 
-
-
-
-
-
-
-
-
-
-
-
-
-PLACE YOUR CODE HERE!
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
----------------------------------------------------------------->
-
+          </div>
+        </div>
+</div>
 
 
       <!-- Start of footer -->
@@ -786,6 +783,30 @@ PLACE YOUR CODE HERE!
   <script async defer src="https://buttons.github.io/buttons.js"></script>
   <!-- Control Center for Soft Dashboard: parallax effects, scripts for the example pages etc -->
   <script src="../assets/js/soft-ui-dashboard.min.js?v=1.0.3"></script>
+
+  <!-- Containter for Weavy Messenger -->
+  <div id="feed-container"></div>
+
+<!-- App js -->
+<script src="assets/js/app.js"></script>
+
+<!-- TASK: add weavy javascript library here -->
+<script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+<script src="https://weavy-demo.azurewebsites.net/javascript/weavy.min.js"></script>
+
+
+<!-- weavy client script -->
+<!-- <script src="assets/js/weavy.js"></script> -->
+<script>
+  var jwt = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJkZW1vdXNlciIsIm5hbWUiOiJhZG1pbiIsImV4cCI6MjUxNjIzOTAyMiwiaXNzIjoidGhlaW5ldml0YWJsZXMiLCJjbGllbnRpZCI6InRoZWluZXZpdGFibGVzIiwiY2xpZW50c2VjcmV0IjoidGhlaW5ldml0YWJsZXMiLCJlbWFpbCI6ImFraGlsbWFuaWwwQGdtYWlsLmNvbSIsInBhc3N3b3JkIjoiYWtoaWxAMTIzIiwidXNlcm5hbWUiOiJhZG1pbiJ9.pO_8T5Z4j7dcps_Oj2DYWGDPEtPL-zt4nK1eg-eOtBs";
+  var weavy = new Weavy({ jwt: jwt });
+  var space = weavy.space({ key: "feed" });
+  space.app({
+    key: "feed",
+    type: "posts",
+    container: "#feed-container"
+  });
+</script>
 </body>
 
 </html>
