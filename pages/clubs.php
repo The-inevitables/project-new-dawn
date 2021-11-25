@@ -278,7 +278,11 @@ The one place for all .
             <li class="nav-item d-flex align-items-center">
               <a href="javascript:;" class="nav-link text-body font-weight-bold px-0">
                 <i class="fa fa-user me-sm-1"></i>
-                <span class="d-sm-inline d-none">Sign In</span>
+                <span class="d-sm-inline d-none">
+                 <?php
+                include "phpqueries/name.php"                 
+                ?>
+                </span>
               </a>
             </li>
             <li class="nav-item d-xl-none ps-3 d-flex align-items-center">
@@ -421,7 +425,7 @@ The one place for all .
                         Place where like minded developers come together to innovate.
                       </p>
                       <div class="d-flex align-items-center justify-content-between">
-                        <button href="devclubs.php" type="button" class="btn btn-outline-primary btn-sm mb-0">Join Club</button>
+                        <a href="devclubs.php" type="button" class="btn btn-outline-primary btn-sm mb-0">Join Club</a>
                         <div class="avatar-group mt-2">
                           <a href="javascript:;" class="avatar avatar-xs rounded-circle" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Elena Morison">
                             <img alt="Image placeholder" src="../assets/img/team-1.jpg">
@@ -458,7 +462,7 @@ The one place for all .
                         Smallest act of kindness is worth more than grandest intention.
                       </p>
                       <div class="d-flex align-items-center justify-content-between">
-                        <button href="charity.php" type="button" class="btn btn-outline-primary btn-sm mb-0">Join Club</button>
+                        <a href="charity.php" type="button" class="btn btn-outline-primary btn-sm mb-0">Join Club</a>
                         <div class="avatar-group mt-2">
                           <a href="javascript:;" class="avatar avatar-xs rounded-circle" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Nick Daniel">
                             <img alt="Image placeholder" src="../assets/img/team-3.jpg">
@@ -495,7 +499,7 @@ The one place for all .
                       Until I feared I would lose it, I never loved to read. One does not love breathing.
                       </p>
                       <div class="d-flex align-items-center justify-content-between">
-                        <button href="readers.php" type="button" class="btn btn-outline-primary btn-sm mb-0">Join Club </button>
+                        <a href="readers.php" type="button" class="btn btn-outline-primary btn-sm mb-0">Join Club </a>
                         <div class="avatar-group mt-2">
                           <a href="javascript:;" class="avatar avatar-xs rounded-circle" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Peterson">
                             <img alt="Image placeholder" src="../assets/img/team-4.jpg">
