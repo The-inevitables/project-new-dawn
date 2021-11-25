@@ -46,6 +46,24 @@
           <li><a class="nav-link scrollto" href="#about-us">About</a></li>
           <li><a class="nav-link scrollto" href="#features">Features</a></li>
           <li><a class="nav-link scrollto" href="#team">Team</a></li>
+          <!-- <li><a class="nav-link scrollto" href="#pricing">Pricing</a></li> -->
+          <!-- <li class="dropdown"><a href="#"><span>Drop Down</span> <i class="bi bi-chevron-down"></i></a>
+            <ul>
+              <li><a href="#">Drop Down 1</a></li>
+              <li class="dropdown"><a href="#"><span>Deep Drop Down</span> <i class="bi bi-chevron-right"></i></a>
+                <ul>
+                  <li><a href="#">Deep Drop Down 1</a></li>
+                  <li><a href="#">Deep Drop Down 2</a></li>
+                  <li><a href="#">Deep Drop Down 3</a></li>
+                  <li><a href="#">Deep Drop Down 4</a></li>
+                  <li><a href="#">Deep Drop Down 5</a></li>
+                </ul>
+              </li>
+              <li><a href="#">Drop Down 2</a></li>
+              <li><a href="#">Drop Down 3</a></li>
+              <li><a href="#">Drop Down 4</a></li>
+            </ul>
+          </li> -->
           <li><a class="nav-link scrollto" href="#contact">Contact</a></li>
         </ul>
         <i class="bi bi-list mobile-nav-toggle"></i>
@@ -62,9 +80,9 @@
       <img src="assets/img/hero-img.png" alt="Hero Imgs" data-aos="zoom-out" data-aos-delay="100">
       <a href="pages/sign-in.php" class="btn-get-started scrollto">Get Started</a>
       <div class="btns">
-        <a href="pages/team.php"><i class="fa fa-apple fa-3x"></i> Join Us!</a>
-        <a href="pages/1.php"><i class="fa fa-play fa-3x"></i> Job Finder</a>
-        <a href="pages/2.php"><i class="fa fa-windows fa-3x"></i> Marketplace</a>
+        <a href="#"><i class="fa fa-apple fa-3x"></i> App Store</a>
+        <a href="#"><i class="fa fa-play fa-3x"></i> Google Play</a>
+        <a href="#"><i class="fa fa-windows fa-3x"></i> windows</a>
       </div>
     </div>
   </section><!-- End Hero Section -->
@@ -108,7 +126,7 @@
       <div class="container" data-aos="fade-up">
         <div class="section-title text-center">
           <h2>Amazing Features.</h2>
-          <p class="separator">Integer cursus bibendum augue ac cursus .</p>
+          <p class="separator">A community web app at your fingertips .</p>
         </div>
 
         <div class="row" data-aos="fade-up" data-aos-delay="100">
@@ -117,63 +135,63 @@
             <div class="feature-block">
               <img src="assets/img/svg/paint-palette.svg" alt="img">
               <h4>creative design</h4>
-              <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry</p>
+              <p>An account for everyone.A simpler UI for everyone.</p>
             </div>
           </div>
 
           <div class="col-md-6 col-lg-3">
             <div class="feature-block">
               <img src="assets/img/svg/vector.svg" alt="img">
-              <h4>Retina Ready</h4>
-              <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry</p>
+              <h4>Blog Ready</h4>
+              <p>Write blogs and publish it in Communities</p>
             </div>
           </div>
 
           <div class="col-md-6 col-lg-3">
             <div class="feature-block">
               <img src="assets/img/svg/design-tool.svg" alt="img">
-              <h4>easy to use</h4>
-              <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry</p>
+              <h4>Digital workspace</h4>
+              <p>A space to develop innovative ideas</p>
             </div>
           </div>
 
           <div class="col-md-6 col-lg-3">
             <div class="feature-block">
               <img src="assets/img/svg/asteroid.svg" alt="img">
-              <h4>Free Updates</h4>
-              <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry</p>
+              <h4>Clubs and Communities</h4>
+              <p>Explore different communities and clubs near your locations and attend different events and festivals.</p>
             </div>
           </div>
 
           <div class="col-md-6 col-lg-3">
             <div class="feature-block">
               <img src="assets/img/svg/asteroid.svg" alt="img">
-              <h4>Free Updates</h4>
-              <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry</p>
+              <h4>Job</h4>
+              <p>Need some help in finding proffessionals in your area? Don't worry we got you covered!</p>
             </div>
           </div>
 
           <div class="col-md-6 col-lg-3">
             <div class="feature-block">
               <img src="assets/img/svg/cloud-computing.svg" alt="img">
-              <h4>App store support</h4>
-              <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry</p>
+              <h4>Marketplace</h4>
+              <p>Explore the local community based products.Support your community members through the marketplace. And be a part of it.</p>
             </div>
           </div>
 
           <div class="col-md-6 col-lg-3">
             <div class="feature-block">
               <img src="assets/img/svg/pixel.svg" alt="img">
-              <h4>Perfect Pixel</h4>
-              <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry</p>
+              <h4>Forums</h4>
+              <p>Have a grievence on your community? Tell us thorugh forum, together we can solve the problems together.</p>
             </div>
           </div>
 
           <div class="col-md-6 col-lg-3">
             <div class="feature-block">
               <img src="assets/img/svg/code.svg" alt="img">
-              <h4>clean codes</h4>
-              <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry</p>
+              <h4>Disaster management boards</h4>
+              <p>Get upto date update on weather and disasters through New Dawn</p>
             </div>
           </div>
 
@@ -203,7 +221,7 @@
         <div class="section-title text-center">
 
           <h2>Team Member</h2>
-          <p class="separator">Integer cursus bibendum augue ac cursus .</p>
+          <p class="separator">A dedicated team to solve your problems.</p>
         </div>
 
         <div class="row">
@@ -279,7 +297,7 @@
         <div class="section-title text-center">
 
           <h2>Latest posts</h2>
-          <p class="separator">Integer cursus bibendum augue ac cursus .</p>
+          <p class="separator">Explore the different blogs from the community.</p>
         </div>
 
         <div class="row" data-aos="fade-up" data-aos-delay="100">
@@ -299,7 +317,7 @@
             <div class="block-blog text-left">
               <a href="#"><img src="assets/img/blog/blog-image-2.jpg" class="img-responsive" alt="img"></a>
               <div class="content-blog">
-                <h4><a href="#">whats isthe difference between good and bat typography</a></h4>
+                <h4><a href="#">whats is the difference between good and bad typography</a></h4>
                 <span>05, juin 2017</span>
                 <a class="float-end readmore" href="#">read more</a>
               </div>
@@ -352,7 +370,7 @@
       <div class="container" data-aos="fade-up">
         <div class="section-title text-center">
           <h2>Contact</h2>
-          <p class="separator">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque</p>
+          <p class="separator">Have some queries, feel free to contact us.</p>
         </div>
 
         <div class="row justify-content-center" data-aos="fade-up" data-aos-delay="100">
@@ -362,17 +380,17 @@
             <div class="info">
               <div>
                 <i class="bi bi-geo-alt"></i>
-                <p>A108 Adam Street<br>New York, NY 535022</p>
+                <p>Varikkasseri Mana<br>Kerala ,679521</p>
               </div>
 
               <div class="email">
                 <i class="bi bi-envelope"></i>
-                <p>info@example.com</p>
+                <p>team.inevitables@gmail.com</p>
               </div>
 
               <div>
                 <i class="bi bi-phone"></i>
-                <p>+1 5589 55488 55s</p>
+                <p>++91 9995612294/p>
               </div>
             </div>
 
@@ -423,8 +441,9 @@
         <div class="col-md-12 col-lg-4">
           <div class="footer-logo">
 
-            <a class="navbar-brand" href="#">eStartup</a>
-            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the.</p>
+            <a class="navbar-brand" href="#">Project New Dawn</a>
+            <p>A community management solution shaped itself in a web- app and android app. Pandemic has taught us the value of community, what if we can build a better community with the power of technology?
+Project New Dawn is a perfect solution which aims for the development of local communities. </p>
 
           </div>
         </div>
@@ -477,7 +496,7 @@
         <div class="col-sm-6 col-md-3 col-lg-2">
           <div class="list-menu">
 
-            <h4>Abou Us</h4>
+            <h4>About Us</h4>
 
             <ul class="list-unstyled">
               <li><a href="#">About us</a></li>
@@ -494,15 +513,10 @@
 
     <div class="copyrights">
       <div class="container">
-        <p>&copy; Copyrights eStartup. All rights reserved.</p>
+        <p>&copy; Copyrights Project New Dawn. All rights reserved.</p>
         <div class="credits">
-          <!--
-          All the links in the footer should remain intact.
-          You can delete the links only if you purchased the pro version.
-          Licensing information: https://bootstrapmade.com/license/
-          Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/buy/?theme=eStartup
-        -->
-          Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
+
+          Designed by <a href="https://github.com/The-inevitables">The Inevitables</a>
         </div>
       </div>
     </div>
