@@ -518,23 +518,128 @@ The one place for all .
           </div>
         </div>
         <div class="col-lg-5 ">
-          <div class="card h-100 p-3">
-            <div class="overflow-hidden position-relative border-radius-lg bg-cover h-100" style="background-image: url('../assets/img/ivancik.jpg');">
-              <span class="mask bg-gradient-dark"></span>
-              <div class="card-body position-relative z-index-1 d-flex flex-column h-100 p-3">
-                <h5 class="text-white font-weight-bolder mb-4 pt-2">Join A Club</h5>
-                <p class="text-white">The Club Kids were about fun. Wild, messy fun - the more debauched, the better.</p>
-                <a class="text-white text-sm font-weight-bold mb-0 icon-move-right mt-auto" href="clubs.php">
-                  Join Now!
-                  <i class="fas fa-arrow-right text-sm ms-1" aria-hidden="true"></i>
-                </a>
+          <div class="card h-100 p-2 pt-4">
+          <h5 class="text-dark font-weight-bolder mb-4 pt-2">&emsp;My Stocks</h5>
+            <!-- TradingView Widget BEGIN -->
+<div class="tradingview-widget-container">
+  <div id="tradingview_e0b68"></div>
+  <div class="tradingview-widget-copyright"><a href="https://in.tradingview.com/symbols/NASDAQ-AAPL/" rel="noopener" target="_blank"><span class="blue-text">AAPL Chart</span></a> by TradingView</div>
+  <script type="text/javascript" src="https://s3.tradingview.com/tv.js"></script>
+  <script type="text/javascript">
+  new TradingView.widget(
+  {
+  "width": 550,
+  "height": 550,
+  "symbol": "NASDAQ:AAPL",
+  "interval": "D",
+  "timezone": "Etc/UTC",
+  "theme": "dark",
+  "style": "1",
+  "locale": "in",
+  "toolbar_bg": "#f1f3f6",
+  "enable_publishing": false,
+  "allow_symbol_change": true,
+  "container_id": "tradingview_e0b68"
+}
+  );
+  </script>
+  <!-- TradingView Widget END -->
+        </div>
+
+          </div>
+             </div>
+        <div class="col-12 mt-4">
+          <div class="card mb-4">
+            <div class="card-header pb-0 p-3">
+              <h6 class="mb-1"> Quick Links!</h6>
+              <p class="text-sm">New Dawn</p>
+            </div>
+            <div class="card-body p-3">
+              <div class="row">
+                <div class="col-xl-4 col-md-6 mb-xl-0 mb-4">
+                  <div class="card card-blog card-plain">
+                    <div class="position-relative">
+                      <a class="d-block shadow-xl border-radius-xl">
+                        <img src="../assets/img/community.jpg" alt="img-blur-shadow" class="img-fluid shadow border-radius-xl">
+                      </a>
+                    </div>
+                    <div class="card-body px-1 pb-0">
+                      <p class="text-gradient text-dark mb-2 text-sm"> Join now!</p>
+                      <a href="community.php">
+                      <h5>
+                          Communities
+                        </h5>
+                      </a>
+                      <p class="mb-4 text-sm">
+                        Explore new festivals and connections. Let's together develop a new dawn for the community. Explore the communities in New Dawn.Engage in a community. 
+                      </p>
+                      <div class="d-flex align-items-center justify-content-between">
+                        <button type="button" class="btn btn-outline-primary btn-sm mb-0">Details</button>
+                        
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-xl-4 col-md-6 mb-xl-0 mb-4">
+                  <div class="card card-blog card-plain">
+                    <div class="position-relative">
+                      <a class="d-block shadow-xl border-radius-xl">
+                        <img src="../assets/img/clubs.jpg" alt="img-blur-shadow" class="img-fluid shadow border-radius-lg">
+                      </a>
+                    </div>
+                    <div class="card-body px-1 pb-0">
+                      <p class="text-gradient text-dark mb-2 text-sm">Join now!</p>
+                      <a href="clubs.php">
+                        <h5>
+                          Clubs
+                        </h5>
+                      </a>
+                      <p class="mb-4 text-sm">
+                      Clubs are a fun place to be at. Engage with like minded people!
+                      </p>
+                      <div class="d-flex align-items-center justify-content-between">
+                        <button type="button" class="btn btn-outline-primary btn-sm mb-0">Details</button>
+                        
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-xl-4 col-md-6 mb-xl-0 mb-4">
+                  <div class="card card-blog card-plain">
+                    <div class="position-relative">
+                      <a class="d-block shadow-xl border-radius-xl">
+                        <img src="../assets/img/marketplace.jpg" alt="img-blur-shadow" class="img-fluid shadow border-radius-xl">
+                      </a>
+                    </div>
+                    <div class="card-body px-1 pb-0">
+                      <p class="text-gradient text-dark mb-2 text-sm">Explore now!</p>
+                      <a href="marketplace.php">
+                        <h5>
+                          Market Place
+                        </h5>
+                      </a>
+                      <p class="mb-4 text-sm">
+                        Looking for buying groceries and houshold items , shop online from the shops near you!
+                      </p>
+                      <div class="d-flex align-items-center justify-content-between">
+                        <button type="button" class="btn btn-outline-primary btn-sm mb-0">Details</button>
+                        
+                      </div>
+                    </div>
+                  </div>
+                </div>
+  
               </div>
             </div>
           </div>
         </div>
-        </div>
 
+      </div>
 
+        
+
+     
+    </div>
         
 
         
@@ -580,7 +685,7 @@ The one place for all .
           </div>
         </div>
       </footer>
-    </div>
+    <!-- </div> -->
   </main>
   <div class="fixed-plugin">
     <a class="fixed-plugin-button text-dark position-fixed px-3 py-2">
