@@ -84,7 +84,7 @@
                   <p class="mb-0">"If you love your work, if you enjoy it, you're already a success."</p>
                 </div>
                 <div class="card-body">
-                  <form method="post" action="connection3.php">
+                  <form method="post" action="jobfinder.php">
                   <label>Full Name</label>
                     <div class="mb-3">
                       <input type="text" class="form-control" placeholder="Full Name" id="fullname" name="fullname" aria-label="Fullname" aria-describedby="Fullname-addon">
