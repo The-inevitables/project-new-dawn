@@ -28,7 +28,7 @@
         <!-- Navbar -->
         <nav class="navbar navbar-expand-lg blur blur-rounded top-0 z-index-3 shadow position-absolute my-3 py-2 start-0 end-0 mx-4">
           <div class="container-fluid">
-            <a class="navbar-brand font-weight-bolder ms-lg-0 ms-3 " href="../index.php">
+            <a class="navbar-brand font-weight-bolder ms-lg-0 ms-3 " href="../dashboard.php">
               Project New-Dawn
             </a>
             <button class="navbar-toggler shadow-none ms-2" type="button" data-bs-toggle="collapse" data-bs-target="#navigation" aria-controls="navigation" aria-expanded="false" aria-label="Toggle navigation">
@@ -41,27 +41,27 @@
             <div class="collapse navbar-collapse" id="navigation">
               <ul class="navbar-nav mx-auto">
                 <li class="nav-item">
-                  <a class="nav-link d-flex align-items-center me-2 active" aria-current="page" href="../index.php">
+                  <a class="nav-link d-flex align-items-center me-2 active" aria-current="page" href="../forum.php">
                     <i class="fa fa-chart-pie opacity-6 text-dark me-1"></i>
                     Forum
                   </a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link me-2" href="../index.php">
+                  <a class="nav-link me-2" href="../community.php">
                     <i class="fa fa-user opacity-6 text-dark me-1"></i>
                     Community
                   </a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link me-2" href="../index.php">
+                  <a class="nav-link me-2" href="../marketplace.php">
                     <i class="fas fa-user-circle opacity-6 text-dark me-1"></i>
                     Marketplace
                   </a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link me-2" href="sign-up.php">
+                  <a class="nav-link me-2" href="clubs.php">
                     <i class="fas fa-key opacity-6 text-dark me-1"></i>
-                    Sign Up
+                    Clubs
                   </a>
                 </li>
               </ul>
