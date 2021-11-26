@@ -59,7 +59,7 @@
     <div class="hero-container" data-aos="fade-in">
       <h1>Welcome to Project New Dawn</h1>
       <h2>A community management solution</h2>
-      <img src="assets/img/hero-img.png" alt="Hero Imgs" data-aos="zoom-out" data-aos-delay="100">
+      <img src="assets/img/dino.png" alt="Hero Imgs" data-aos="zoom-out" data-aos-delay="100">
       <a href="pages/sign-in.php" class="btn-get-started scrollto">Get Started</a>
       <div class="btns">
         <a href="pages/team.php"><i class="fa fa-apple fa-3x"></i> Join Us!</a>
