@@ -231,7 +231,7 @@ The one place for all .
           </a>
         </li>
 
-        <!-- Dashboard Quick Link bar  : Job Finder tab-->
+        <!-- Dashboard Quick Link bar  : Complaint Forum tab-->
         <li class="nav-item">
           <a class="nav-link  " href="../pages/forum.php">
             <div class="icon icon-shape icon-sm shadow border-radius-md bg-white text-center me-2 d-flex align-items-center justify-content-center">
