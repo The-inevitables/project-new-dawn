@@ -407,8 +407,8 @@ The one place for all .
       <div class="card card-body blur shadow-blur mx-4 mt-n6 overflow-hidden">
         <div class="row gx-4">
           <div class="col-auto">
-            <div class="avatar avatar-xl position-relative">
-              <img src="../assets/img/bruce-mars.jpg" alt="profile_image" class="w-100 border-radius-lg shadow-sm">
+          <div class="avatar avatar-xl position-relative">
+              <img src="../assets/img/electrician.jpg" alt="profile_image" class="w-100 border-radius-lg shadow-sm">
             </div>
           </div>
           <div class="col-auto my-auto" > 
@@ -417,7 +417,7 @@ The one place for all .
                 Welcome to the Job Market!
               </h5>
               <p class="mb-0 font-weight-bold text-sm">
-                Explore the talented freelance proffesionals in your area !
+                Search = "Electrician"
               </p>
               
             </div>
@@ -430,65 +430,22 @@ The one place for all .
 
     <div class="container-fluid py-4">
       <div class="row">
-        <div class="col-12 col-xl-12">
-          <div class="card h-100">
-            <div class="card-header pb-0 p-3">
-              <h6 class="mb-0">Find what you need!</h6>
-            </div>
-            <div class="submit-form">
-                        <form id="form-submit" action="selection.php" method="post">
-                            <div class="row">
-                                <div class="col-md-3 first-item">
-                                    <fieldset>
-                                        <input name="name" type="text" class="form-control" id="name" placeholder="Your name..." required="">
-                                    </fieldset>
-                                </div>
-                                <div class="col-md-3 second-item">
-                                    <fieldset>
-                                        <input name="location" type="text" class="form-control" id="location" placeholder="Type location..." required="">
-                                    </fieldset>
-                                </div>
-                                <div class="col-md-3 third-item">
-                                    <fieldset>
-                                        <select required name="category" id="category" onchange='this.form.()'>
-                                            <option value="">Select category...</option>
-                                            <option value="Electrician">Electrician</option>
-                                            <option value="Mechanic">Mechanic</option>
-                                            <option value="Plumber">Plumber</option>
-                                            <option value="Gardner">Gardner</option>
-                                            <option value="Web Developer">Web Developer</option>
-                                            <option value="Care Taker">Care Taker</option>
-                                            <option value="Teacher">Teacher</option>
-                                        </select>
-                                    </fieldset>
-                                </div>
-                                <div class="col-md-3">
-                                    <fieldset>
-                                        <button type="submit" id="form-submit" class="btn">Search Now</button>
-                                    </fieldset>
-                                </div>
-                            </div>
-                        </form>
-                    </div>
-          </div>
-        </div>
+
         <div class="col-12 mt-4">
           <div class="card mb-4">
             <div class="card-header pb-0 p-3">
-              <h6 class="mb-1"> Quick Finds</h6>
-              <p class="text-sm">Near You!</p>
+              <h6 class="mb-1">Find= "Electrician"</h6>
+              
             </div>
             <div class="card-body p-3">
               <div class="row">
                 <div class="col-xl-4 col-md-6 mb-xl-0 mb-4">
                   <div class="card card-blog card-plain">
                     <div class="position-relative">
-                      <a class="d-block shadow-xl border-radius-xl">
-                        <img src="../assets/img/electrician.jpg" alt="img-blur-shadow" class="img-fluid shadow border-radius-xl">
-                      </a>
+                      
                     </div>
                     <div class="card-body px-1 pb-0">
-                      <p class="text-gradient text-dark mb-2 text-sm"> Electrician</p>
+                      
                       <a href="javascript:;">
                       <h5>
                           Sajeev K T
@@ -497,56 +454,184 @@ The one place for all .
                       <p class="mb-4 text-sm">
                         Electrical Maintenance * Electrical Diploma from ITI Kottayam 
                       </p>
+                      <p class="mb-4 text-sm">
+                        Working associated with Southernway Electrical Shop 
+                      </p>
+                      <p class="mb-4 text-sm">
+                        Contact: +918139252625 
+                      </p>
+                      <p class="mb-4 text-sm">
+                        Address: Bmc Junction, Kakkanad, Ernakulam - 682030, Bharath Matha College  
+                      </p>
                       <div class="d-flex align-items-center justify-content-between">
-                        <button type="button" class="btn btn-outline-primary btn-sm mb-0">Details</button>
+                        <a href="https://calendar.google.com/calendar/embed?src=akhilmanil0%40gmail.com&ctz=Asia%2FKolkata" style="border: 0" width="800" height="600" frameborder="0" scrolling="no"" type="button" class="btn btn-outline-primary btn-sm mb-0" target="_blank">Check Availability</a>
                         
                       </div>
                     </div>
                   </div>
                 </div>
+
+
                 <div class="col-xl-4 col-md-6 mb-xl-0 mb-4">
                   <div class="card card-blog card-plain">
                     <div class="position-relative">
-                      <a class="d-block shadow-xl border-radius-xl">
-                        <img src="../assets/img/plumber.jpg" alt="img-blur-shadow" class="img-fluid shadow border-radius-lg">
-                      </a>
+                      
                     </div>
                     <div class="card-body px-1 pb-0">
-                      <p class="text-gradient text-dark mb-2 text-sm">Plumber</p>
+                      
                       <a href="javascript:;">
-                        <h5>
-                          Shajeevan H
+                      <h5>
+                      Raju P P 
                         </h5>
                       </a>
                       <p class="mb-4 text-sm">
-                        Plumbing works * Repair and Maintenance
+                      Electrical Shops * Electricians * Electrical Contractors * Electrical Engineering Contractors 
+                      </p>
+                      <p class="mb-4 text-sm">
+                        Working associated with Grace Electrical Shop 
+                      </p>
+                      <p class="mb-4 text-sm">
+                        Contact: +919605787845
+                      </p>
+                      <p class="mb-4 text-sm">
+                        Address: 10/1370, Amaravathi Road, Kochi Fort, Kochi - 682001, Near Charless Hardware Shop 
                       </p>
                       <div class="d-flex align-items-center justify-content-between">
-                        <button type="button" class="btn btn-outline-primary btn-sm mb-0">Details</button>
+                        <a href="https://calendar.google.com/calendar/embed?src=akhilmanil0%40gmail.com&ctz=Asia%2FKolkata" style="border: 0" width="800" height="600" frameborder="0" scrolling="no"" type="button" class="btn btn-outline-primary btn-sm mb-0" target="_blank">Check Availability</a>
                         
                       </div>
                     </div>
                   </div>
                 </div>
+
+
                 <div class="col-xl-4 col-md-6 mb-xl-0 mb-4">
                   <div class="card card-blog card-plain">
                     <div class="position-relative">
-                      <a class="d-block shadow-xl border-radius-xl">
-                        <img src="../assets/img/mechanic.jpg" alt="img-blur-shadow" class="img-fluid shadow border-radius-xl">
-                      </a>
+                      
                     </div>
                     <div class="card-body px-1 pb-0">
-                      <p class="text-gradient text-dark mb-2 text-sm">Mechanic</p>
+                      
                       <a href="javascript:;">
-                        <h5>
-                          Anandu Gigi
+                      <h5>
+                      Shameer P T 
                         </h5>
                       </a>
                       <p class="mb-4 text-sm">
-                        Car & Bike Mechanic * Vehicle Wash * 
+                        Electrical Maintenance *  Electrical Shops * Electricians
+                      </p>
+                      <p class="mb-4 text-sm">
+                        Working associated with NewMan Electrical Shop 
+                      </p>
+                      <p class="mb-4 text-sm">
+                        Contact: +918139785264
+                      </p>
+                      <p class="mb-4 text-sm">
+                        Address: No. 13/1018, Karuvelipady, Thoppumpady, Ernakulam - 682005, Opposite Government Hospital Bus Stop
                       </p>
                       <div class="d-flex align-items-center justify-content-between">
-                        <button type="button" class="btn btn-outline-primary btn-sm mb-0">Details</button>
+                        <a href="https://calendar.google.com/calendar/embed?src=akhilmanil0%40gmail.com&ctz=Asia%2FKolkata" style="border: 0" width="800" height="600" frameborder="0" scrolling="no"" type="button" class="btn btn-outline-primary btn-sm mb-0" target="_blank">Check Availability</a>
+                        
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                </div>
+            </div>
+
+            <div class="container-fluid py-4">
+            <div class="row">                        
+
+                <div class="col-xl-4 col-md-6 mb-xl-0 mb-4">
+                  <div class="card card-blog card-plain">
+                    <div class="position-relative">
+                      
+                    </div>
+                    <div class="card-body px-1 pb-0">
+                      
+                      <a href="javascript:;">
+                      <h5>
+                      Johnson John
+                        </h5>
+                      </a>
+                      <p class="mb-4 text-sm">
+                      Electricians * Electrical Contractors * LED Panel Light Dealers * Switch Board Dealers * Decorative LED Bulb Dealers * Electronic Door Bell Dealers
+                      </p>
+                      <p class="mb-4 text-sm">
+                        Working associated with Sreeshailam Electrical Shop 
+                      </p>
+                      <p class="mb-4 text-sm">
+                        Contact: +917025456968
+                      </p>
+                      <p class="mb-4 text-sm">
+                        Address: Vyttila Thammanam Road, Vyttila, Ernakulam - 682019, Opposite Federal Bank
+                      </p>
+                      <div class="d-flex align-items-center justify-content-between">
+                        <a href="https://calendar.google.com/calendar/embed?src=akhilmanil0%40gmail.com&ctz=Asia%2FKolkata" style="border: 0" width="800" height="600" frameborder="0" scrolling="no"" type="button" class="btn btn-outline-primary btn-sm mb-0" target="_blank">Check Availability</a>
+                        
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-xl-4 col-md-6 mb-xl-0 mb-4">
+                  <div class="card card-blog card-plain">
+                    <div class="position-relative">
+                      
+                    </div>
+                    <div class="card-body px-1 pb-0">
+                      
+                      <a href="javascript:;">
+                      <h5>
+                       Shaji Rajan
+                        </h5>
+                      </a>
+                      <p class="mb-4 text-sm">
+                        Electrical Maintenance * Tube Light Fitting Dealers * Round Panel Light Dealers * Power Strip Dealers * Bulb Holder Dealers 
+                      </p>
+                      <p class="mb-4 text-sm">
+                        Working associated with HIDMA Electrical Shop 
+                      </p>
+                      <p class="mb-4 text-sm">
+                        Contact: +918139252625 
+                      </p>
+                      <p class="mb-4 text-sm">
+                        Address: 10/1370, Amaravathi Road, Kochi Fort, Kochi - 682001, Near Charless Hardware Shop 
+                      </p>
+                      <div class="d-flex align-items-center justify-content-between">
+                        <a href="https://calendar.google.com/calendar/embed?src=akhilmanil0%40gmail.com&ctz=Asia%2FKolkata" style="border: 0" width="800" height="600" frameborder="0" scrolling="no"" type="button" class="btn btn-outline-primary btn-sm mb-0" target="_blank">Check Availability</a>
+                        
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-xl-4 col-md-6 mb-xl-0 mb-4">
+                  <div class="card card-blog card-plain">
+                    <div class="position-relative">
+                      
+                    </div>
+                    <div class="card-body px-1 pb-0">
+                      
+                      <a href="javascript:;">
+                      <h5>
+                          Rajesh K R
+                        </h5>
+                      </a>
+                      <p class="mb-4 text-sm">
+                        Electrical Maintenance * Electrical Diploma * Home Maintenance 
+                      </p>
+                      <p class="mb-4 text-sm">
+                        Freelance 
+                      </p>
+                      <p class="mb-4 text-sm">
+                        Contact: +917025453212
+                      </p>
+                      <p class="mb-4 text-sm">
+                        Address: Nanattil House, Desabimani Road, Kaloor, Ernakulam - 682017
+                      </p>
+                      <div class="d-flex align-items-center justify-content-between">
+                        <a href="https://calendar.google.com/calendar/embed?src=akhilmanil0%40gmail.com&ctz=Asia%2FKolkata" style="border: 0" width="800" height="600" frameborder="0" scrolling="no"" type="button" class="btn btn-outline-primary btn-sm mb-0" target="_blank">Check Availability</a>
                         
                       </div>
                     </div>
