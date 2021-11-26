@@ -433,32 +433,21 @@ Project New Dawn is a perfect solution which aims for the development of local c
         <div class="col-sm-6 col-md-3 col-lg-2">
           <div class="list-menu">
 
-            <h4>Abou Us</h4>
+            <h4>About Us</h4>
 
             <ul class="list-unstyled">
-              <li><a href="#">About us</a></li>
-              <li><a href="#">Features item</a></li>
-              <li><a href="#">Live streaming</a></li>
-              <li><a href="#">Privacy Policy</a></li>
+              <li><a href="https://github.com/The-inevitables/project-new-dawn">About us</a></li>
+              <li><a href="https://github.com/The-inevitables/project-new-dawn">Features item</a></li>
+              <li><a href="https://github.com/The-inevitables/project-new-dawn">Our Projects</a></li>
+              <li><a href="https://github.com/The-inevitables/project-new-dawn">Privacy Policy</a></li>
             </ul>
 
           </div>
         </div>
 
-        <div class="col-sm-6 col-md-3 col-lg-2">
-          <div class="list-menu">
 
-            <h4>Abou Us</h4>
 
-            <ul class="list-unstyled">
-              <li><a href="#">About us</a></li>
-              <li><a href="#">Features item</a></li>
-              <li><a href="#">Live streaming</a></li>
-              <li><a href="#">Privacy Policy</a></li>
-            </ul>
 
-          </div>
-        </div>
 
         <div class="col-sm-6 col-md-3 col-lg-2">
           <div class="list-menu">
@@ -466,25 +455,10 @@ Project New Dawn is a perfect solution which aims for the development of local c
             <h4>Support</h4>
 
             <ul class="list-unstyled">
-              <li><a href="#">faq</a></li>
-              <li><a href="#">Editor help</a></li>
-              <li><a href="#">Contact us</a></li>
-              <li><a href="#">Privacy Policy</a></li>
-            </ul>
-
-          </div>
-        </div>
-
-        <div class="col-sm-6 col-md-3 col-lg-2">
-          <div class="list-menu">
-
-            <h4>About Us</h4>
-
-            <ul class="list-unstyled">
-              <li><a href="#">About us</a></li>
-              <li><a href="#">Features item</a></li>
-              <li><a href="#">Live streaming</a></li>
-              <li><a href="#">Privacy Policy</a></li>
+              <li><a href="https://github.com/The-inevitables/project-new-dawn">About us</a></li>
+              <li><a href="https://github.com/The-inevitables/project-new-dawn">Features item</a></li>
+              <li><a href="https://github.com/The-inevitables/project-new-dawn">Github Repo</a></li>
+              <li><a href="https://github.com/The-inevitables/project-new-dawn">Privacy Policy</a></li>
             </ul>
 
           </div>
