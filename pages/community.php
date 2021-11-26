@@ -420,7 +420,7 @@ The one place for all .
                           ?> updates!
                       </p>
                       <div class="d-flex align-items-center justify-content-between">
-                        <a href="devclub.php" type="button" class="btn btn-outline-primary btn-sm mb-0">Go To Community</a>
+                        <a href="communityindex.php" type="button" class="btn btn-outline-primary btn-sm mb-0">Go To Community</a>
                         
                       </div>
                     </div>
