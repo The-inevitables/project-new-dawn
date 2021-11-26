@@ -38,6 +38,14 @@ The one place for all .
   
   <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
   <link rel="stylesheet" href="../assets/css/style(mt).css">
+  <style>
+.center {
+  margin: auto;
+  width: 50%;
+  text-align: center;
+}
+</style>
+
 </head>
 
 <body class="g-sidenav-show  bg-gray-100">
@@ -407,8 +415,8 @@ The one place for all .
       <div class="card card-body blur shadow-blur mx-4 mt-n6 overflow-hidden">
         <div class="row gx-4">
           <div class="col-auto">
-            <div class="avatar avatar-xl position-relative">
-              <img src="../assets/img/bruce-mars.jpg" alt="profile_image" class="w-100 border-radius-lg shadow-sm">
+          <div class="avatar avatar-xl position-relative">
+              <img src="../assets/img/plumber.jpg" alt="profile_image" class="w-100 border-radius-lg shadow-sm">
             </div>
           </div>
           <div class="col-auto my-auto" > 
@@ -416,9 +424,7 @@ The one place for all .
               <h5 class="mb-1" >
                 Welcome to the Job Market!
               </h5>
-              <p class="mb-0 font-weight-bold text-sm">
-                Explore the talented freelance proffesionals in your area !
-              </p>
+              
               
             </div>
 
@@ -428,130 +434,32 @@ The one place for all .
         </div>
     </div>
 
-    <div class="container-fluid py-4">
-      <div class="row">
-        <div class="col-12 col-xl-12">
-          <div class="card h-100">
-            <div class="card-header pb-0 p-3">
-              <h6 class="mb-0">Find what you need!</h6>
-            </div>
-            <div class="submit-form">
-                        <form id="form-submit" action="selection.php" method="post">
-                            <div class="row">
-                                <div class="col-md-3 first-item">
-                                    <fieldset>
-                                        <input name="name" type="text" class="form-control" id="name" placeholder="Your name..." required="">
-                                    </fieldset>
-                                </div>
-                                <div class="col-md-3 second-item">
-                                    <fieldset>
-                                        <input name="location" type="text" class="form-control" id="location" placeholder="Type location..." required="">
-                                    </fieldset>
-                                </div>
-                                <div class="col-md-3 third-item">
-                                    <fieldset>
-                                        <select required name="category" id="category" onchange='this.form.()'>
-                                            <option value="">Select category...</option>
-                                            <option value="Electrician">Electrician</option>
-                                            <option value="Mechanic">Mechanic</option>
-                                            <option value="Plumber">Plumber</option>
-                                            <option value="Gardner">Gardner</option>
-                                            <option value="Web Developer">Web Developer</option>
-                                            <option value="Care Taker">Care Taker</option>
-                                            <option value="Teacher">Teacher</option>
-                                        </select>
-                                    </fieldset>
-                                </div>
-                                <div class="col-md-3">
-                                    <fieldset>
-                                        <button type="submit" id="form-submit" class="btn">Search Now</button>
-                                    </fieldset>
-                                </div>
-                            </div>
-                        </form>
-                    </div>
-          </div>
-        </div>
-        <div class="col-12 mt-4">
-          <div class="card mb-4">
-            <div class="card-header pb-0 p-3">
-              <h6 class="mb-1"> Quick Finds</h6>
-              <p class="text-sm">Near You!</p>
-            </div>
-            <div class="card-body p-3">
+
+    <div class="card-body p-3">
               <div class="row">
-                <div class="col-xl-4 col-md-6 mb-xl-0 mb-4">
+                <div class="center">
                   <div class="card card-blog card-plain">
                     <div class="position-relative">
                       <a class="d-block shadow-xl border-radius-xl">
-                        <img src="../assets/img/electrician.jpg" alt="img-blur-shadow" class="img-fluid shadow border-radius-xl">
+                        <img src="../assets/img/notfound.png" alt="img-blur-shadow" class="img-fluid shadow border-radius-xl">
                       </a>
                     </div>
                     <div class="card-body px-1 pb-0">
-                      <p class="text-gradient text-dark mb-2 text-sm"> Electrician</p>
+                      <p class="text-gradient text-dark mb-2 text-sm"> No Person Found</p>
                       <a href="javascript:;">
                       <h5>
-                          Sajeev K T
+                          Try another Search!<br>
                         </h5>
                       </a>
-                      <p class="mb-4 text-sm">
-                        Electrical Maintenance * Electrical Diploma from ITI Kottayam 
-                      </p>
+                      
                       <div class="d-flex align-items-center justify-content-between">
-                        <button type="button" class="btn btn-outline-primary btn-sm mb-0">Details</button>
+                        <a href="jobfinder.php"  class="btn btn-outline-primary btn-sm mb-0">Go Back</a>
                         
                       </div>
                     </div>
                   </div>
                 </div>
-                <div class="col-xl-4 col-md-6 mb-xl-0 mb-4">
-                  <div class="card card-blog card-plain">
-                    <div class="position-relative">
-                      <a class="d-block shadow-xl border-radius-xl">
-                        <img src="../assets/img/plumber.jpg" alt="img-blur-shadow" class="img-fluid shadow border-radius-lg">
-                      </a>
-                    </div>
-                    <div class="card-body px-1 pb-0">
-                      <p class="text-gradient text-dark mb-2 text-sm">Plumber</p>
-                      <a href="javascript:;">
-                        <h5>
-                          Shajeevan H
-                        </h5>
-                      </a>
-                      <p class="mb-4 text-sm">
-                        Plumbing works * Repair and Maintenance
-                      </p>
-                      <div class="d-flex align-items-center justify-content-between">
-                        <button type="button" class="btn btn-outline-primary btn-sm mb-0">Details</button>
-                        
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div class="col-xl-4 col-md-6 mb-xl-0 mb-4">
-                  <div class="card card-blog card-plain">
-                    <div class="position-relative">
-                      <a class="d-block shadow-xl border-radius-xl">
-                        <img src="../assets/img/mechanic.jpg" alt="img-blur-shadow" class="img-fluid shadow border-radius-xl">
-                      </a>
-                    </div>
-                    <div class="card-body px-1 pb-0">
-                      <p class="text-gradient text-dark mb-2 text-sm">Mechanic</p>
-                      <a href="javascript:;">
-                        <h5>
-                          Anandu Gigi
-                        </h5>
-                      </a>
-                      <p class="mb-4 text-sm">
-                        Car & Bike Mechanic * Vehicle Wash * 
-                      </p>
-                      <div class="d-flex align-items-center justify-content-between">
-                        <button type="button" class="btn btn-outline-primary btn-sm mb-0">Details</button>
-                        
-                      </div>
-                    </div>
-                  </div>
-                </div>
+                
   
               </div>
             </div>
