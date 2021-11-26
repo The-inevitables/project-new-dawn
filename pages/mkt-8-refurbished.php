@@ -41,7 +41,8 @@ The one place for all .
     <div class="sidenav-header">
       <i class="fas fa-times p-3 cursor-pointer text-secondary opacity-5 position-absolute end-0 top-0 d-none d-xl-none" aria-hidden="true" id="iconSidenav"></i>
       <a class="navbar-brand m-0" href="https://demos.creative-tim.com/soft-ui-dashboard/pages/dashboard.php" target="_blank">
-        <img src="../assets/img/project-new-dawn.svg" class="navbar-brand-img h-100" alt="main_logo">
+        <!-- <img src="../assets/img/project-new-dawn.svg" class="navbar-brand-img h-100" alt="main_logo"> -->
+        <i class="ni ni-building text-sl opacity-10" aria-hidden="true"></i>
         <span class="ms-1 font-weight-bold">Project New Dawn</span>
       </a>
     </div>
@@ -262,7 +263,7 @@ The one place for all .
             <li class="breadcrumb-item text-sm text-dark " aria-current="page">Dashboard</li>
             <li class="breadcrumb-item text-sm text-dark active" aria-current="page">MarketPlace</li>
           </ol>
-          <h6 class="font-weight-bolder mb-0">MarketPlace Dashboard</h6>
+          <h6 class="font-weight-bolder mb-0">Market Place Dashboard</h6>
         </nav>
         <div class="collapse navbar-collapse mt-sm-0 mt-2 me-md-0 me-sm-4" id="navbar">
           <div class="ms-md-auto pe-md-3 d-flex align-items-center">
