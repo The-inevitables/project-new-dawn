@@ -286,33 +286,33 @@
 
           <div class="col-md-6 col-lg-4">
             <div class="block-blog text-left">
-              <a href="#"><img src="assets/img/blog/blog-image-1.jpg" alt="img"></a>
+              <a href="#"><img src="assets/img/clubs.jpg" alt="img"></a>
               <div class="content-blog">
-                <h4><a href="#">whats isthe difference between good and bat typography</a></h4>
-                <span>05, juin 2017</span>
-                <a class="float-end readmore" href="#">read more</a>
+                <h4><a href="#">The top short stories of 2021 is here!</a></h4>
+                <span>26,November 2021</span>
+                <a class="float-end readmore" href="pages/sign-in.php">read more</a>
               </div>
             </div>
           </div>
 
           <div class="col-md-6 col-lg-4">
             <div class="block-blog text-left">
-              <a href="#"><img src="assets/img/blog/blog-image-2.jpg" class="img-responsive" alt="img"></a>
+              <a href="#"><img src="assets/img/marketplace.jpg" class="img-responsive" alt="img"></a>
               <div class="content-blog">
-                <h4><a href="#">whats is the difference between good and bad typography</a></h4>
-                <span>05, juin 2017</span>
-                <a class="float-end readmore" href="#">read more</a>
+                <h4><a href="#">Want to know more about the festivals around you?</a></h4>
+                <span>25, November 2021</span>
+                <a class="float-end readmore" href="pages/sign-in.php">read more</a>
               </div>
             </div>
           </div>
 
           <div class="col-md-6 col-lg-4">
             <div class="block-blog text-left">
-              <a href="#"><img src="assets/img/blog/blog-image-3.jpg" class="img-responsive" alt="img"></a>
+              <a href="#"><img src="assets/img/clubs.jpg" class="img-responsive" alt="img"></a>
               <div class="content-blog">
-                <h4><a href="#">whats isthe difference between good and bat typography</a></h4>
-                <span>05, juin 2017</span>
-                <a class="float-end readmore" href="#">read more</a>
+                <h4><a href="#">Explore the different clubs in community </a></h4>
+                <span>26, November 2021</span>
+                <a class="float-end readmore" href="pages/sign-in.php">read more</a>
               </div>
             </div>
           </div>
