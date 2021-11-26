@@ -495,7 +495,157 @@ The one place for all .
           </div>
         </div>
       </div>
-    </div>
+    <!-- </div> -->
+    <div class="col-12 mt-4">
+          <div class="card mb-4">
+            <div class="card-header pb-0 p-3">
+              <h6 class="mb-1">EMERGENCY NUMBERS</h6>
+              <p class="text-sm">IN CASE OF AN EMERGENCY</p>
+            </div>
+            <div class="card-body p-3">
+              <div class="row">
+                <div class="col-xl-3 col-md-6 mb-xl-0 mb-4">
+                  <div class="card card-blog card-plain">
+                    <div class="position-relative">
+                      <a class="d-block shadow-xl border-radius-xl">
+                        <img src="../assets/img/ambulance.jpg" alt="img-blur-shadow" class="img-fluid shadow border-radius-xl">
+                      </a>
+                    </div>
+                    <div class="card-body px-1 pb-0">
+                      <p class="text-gradient text-dark mb-2 text-sm"></p>
+                      <a href="javascript:;">
+                        <h5>
+                          AMBULANCE
+                        </h5>
+                      </a>
+                      <div class="d-flex align-items-center justify-content-between">
+                        <a href="devclub.php" type="button" class="btn btn-outline-primary btn-sm mb-0">CALL 102</a>
+                        <div class="avatar-group mt-2">
+                          <a href="javascript:;" class="avatar avatar-xs rounded-circle" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Elena Morison">
+                            <img alt="Image placeholder" src="../assets/img/team-1.jpg">
+                          </a>
+                          <a href="javascript:;" class="avatar avatar-xs rounded-circle" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Ryan Milly">
+                            <img alt="Image placeholder" src="../assets/img/team-2.jpg">
+                          </a>
+                          <a href="javascript:;" class="avatar avatar-xs rounded-circle" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Nick Daniel">
+                            <img alt="Image placeholder" src="../assets/img/team-3.jpg">
+                          </a>
+                          <a href="javascript:;" class="avatar avatar-xs rounded-circle" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Peterson">
+                            <img alt="Image placeholder" src="../assets/img/team-4.jpg">
+                          </a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-xl-3 col-md-6 mb-xl-0 mb-4">
+                  <div class="card card-blog card-plain">
+                    <div class="position-relative">
+                      <a class="d-block shadow-xl border-radius-xl">
+                        <img src="../assets/img/police.jpg" alt="img-blur-shadow" class="img-fluid shadow border-radius-xl">
+                      </a>
+                    </div>
+                    <div class="card-body px-1 pb-0">
+                      <p class="text-gradient text-dark mb-2 text-sm"></p>
+                      <a href="javascript:;">
+                        <h5>
+                          POLICE STATION
+                        </h5>
+                      </a>
+                      <div class="d-flex align-items-center justify-content-between">
+                        <a href="charity.php" type="button" class="btn btn-outline-primary btn-sm mb-0">CALL 100</a>
+                        <div class="avatar-group mt-2">
+                          <a href="javascript:;" class="avatar avatar-xs rounded-circle" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Nick Daniel">
+                            <img alt="Image placeholder" src="../assets/img/team-3.jpg">
+                          </a>
+                          <a href="javascript:;" class="avatar avatar-xs rounded-circle" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Peterson">
+                            <img alt="Image placeholder" src="../assets/img/team-4.jpg">
+                          </a>
+                          <a href="javascript:;" class="avatar avatar-xs rounded-circle" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Elena Morison">
+                            <img alt="Image placeholder" src="../assets/img/team-1.jpg">
+                          </a>
+                          <a href="javascript:;" class="avatar avatar-xs rounded-circle" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Ryan Milly">
+                            <img alt="Image placeholder" src="../assets/img/team-2.jpg">
+                          </a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-xl-3 col-md-6 mb-xl-0 mb-4">
+                  <div class="card card-blog card-plain">
+                    <div class="position-relative">
+                      <a class="d-block shadow-xl border-radius-xl">
+                        <img src="../assets/img/disaster.jpeg" alt="img-blur-shadow" class="img-fluid shadow border-radius-xl">
+                      </a>
+                    </div>
+                    <div class="card-body px-1 pb-0">
+                      <p class="text-gradient text-dark mb-2 text-sm"></p>
+                      <a href="javascript:;">
+                        <h5>
+                         DISASTER MANAGEMENT 
+                        </h5>
+                      </a>
+                      <div class="d-flex align-items-center justify-content-between">
+                        <a href="readers.php" type="button" class="btn btn-outline-primary btn-sm mb-0">CALL 108</a>
+                        <div class="avatar-group mt-2">
+                          <a href="javascript:;" class="avatar avatar-xs rounded-circle" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Peterson">
+                            <img alt="Image placeholder" src="../assets/img/team-4.jpg">
+                          </a>
+                          <a href="javascript:;" class="avatar avatar-xs rounded-circle" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Nick Daniel">
+                            <img alt="Image placeholder" src="../assets/img/team-3.jpg">
+                          </a>
+                          <a href="javascript:;" class="avatar avatar-xs rounded-circle" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Ryan Milly">
+                            <img alt="Image placeholder" src="../assets/img/team-2.jpg">
+                          </a>
+                          <a href="javascript:;" class="avatar avatar-xs rounded-circle" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Elena Morison">
+                            <img alt="Image placeholder" src="../assets/img/team-1.jpg">
+                          </a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-xl-3 col-md-6 mb-xl-0 mb-4">
+                  <div class="card card-blog card-plain">
+                    <div class="position-relative">
+                      <a class="d-block shadow-xl border-radius-xl">
+                        <img src="../assets/img/women.jpg" alt="img-blur-shadow" class="img-fluid shadow border-radius-xl">
+                      </a>
+                    </div>
+                    <div class="card-body px-1 pb-0">
+                      <p class="text-gradient text-dark mb-2 text-sm"></p>
+                      <a href="javascript:;">
+                        <h5>
+                         WOMEN HELPLINE
+                        </h5>
+                      </a>
+                      <div class="d-flex align-items-center justify-content-between">
+                        <a href="readers.php" type="button" class="btn btn-outline-primary btn-sm mb-0">CALL 1091</a>
+                        <div class="avatar-group mt-2">
+                          <a href="javascript:;" class="avatar avatar-xs rounded-circle" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Peterson">
+                            <img alt="Image placeholder" src="../assets/img/team-4.jpg">
+                          </a>
+                          <a href="javascript:;" class="avatar avatar-xs rounded-circle" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Nick Daniel">
+                            <img alt="Image placeholder" src="../assets/img/team-3.jpg">
+                          </a>
+                          <a href="javascript:;" class="avatar avatar-xs rounded-circle" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Ryan Milly">
+                            <img alt="Image placeholder" src="../assets/img/team-2.jpg">
+                          </a>
+                          <a href="javascript:;" class="avatar avatar-xs rounded-circle" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Elena Morison">
+                            <img alt="Image placeholder" src="../assets/img/team-1.jpg">
+                          </a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      </div>
 
 
       <!-- Start of footer -->
