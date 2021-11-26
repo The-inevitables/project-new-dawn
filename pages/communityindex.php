@@ -18,7 +18,7 @@ The one place for all .
   <link rel="apple-touch-icon" sizes="76x76" href="../assets/img/apple-icon.png">
   <link rel="icon" type="image/png" href="../assets/img/favicon.png">
   <title>
-   Community | Project New Dawn
+    Community| Project New Dawn
   </title>
   <!--     Fonts and icons     -->
   <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700" rel="stylesheet" />
@@ -30,6 +30,20 @@ The one place for all .
   <link href="../assets/css/nucleo-svg.css" rel="stylesheet" />
   <!-- CSS Files -->
   <link id="pagestyle" href="../assets/css/soft-ui-dashboard.css?v=1.0.3" rel="stylesheet" />
+
+  <style>
+        body.loading {
+            visibility: hidden;
+        }
+        #feed-container {
+                            width: 100%;
+                            height: 500px;
+                         } 
+                         #feeds-container {
+                            width: 100%;
+                            height: 500px;
+                         }                   
+    </style>      
 </head>
 
 <body class="g-sidenav-show  bg-gray-100">
@@ -62,12 +76,12 @@ The one place for all .
                 </g>
               </svg>
             </div>
-            <span class="nav-link-text ms-1">Community Tab</span>
+            <span class="nav-link-text ms-1">Dashboard</span>
           </a>
         </li>
                 <!-- Dashboard Quick Link bar  : Friends tab-->
         <li class="nav-item">
-          <a class="nav-link  " href="../pages/myfriends.php">
+          <a class="nav-link  " href="../pages/tables.html">
             <div class="icon icon-shape icon-sm shadow border-radius-md bg-white text-center me-2 d-flex align-items-center justify-content-center">
               <svg width="12px" height="12px" viewBox="0 0 42 42" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
                 <title>office</title>
@@ -89,7 +103,7 @@ The one place for all .
 
  <!-- Dashboard Quick Link bar  : Job Finder tab-->
         <li class="nav-item">
-          <a class="nav-link  " href="../pages/jobfinder.php">
+          <a class="nav-link  " href="../pages/virtual-reality.html">
             <div class="icon icon-shape icon-sm shadow border-radius-md bg-white text-center me-2 d-flex align-items-center justify-content-center">
               <svg width="12px" height="12px" viewBox="0 0 42 42" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
                 <title>box-3d-50</title>
@@ -111,7 +125,7 @@ The one place for all .
         </li>
   <!-- Dashboard Quick Link bar  : Market  Place tab-->
          <li class="nav-item">
-          <a class="nav-link  " href="../pages/marketplace.php">
+          <a class="nav-link  " href="../pages/virtual-reality.html">
             <div class="icon icon-shape icon-sm shadow border-radius-md bg-white text-center me-2 d-flex align-items-center justify-content-center">
               <svg width="12px" height="12px" viewBox="0 0 42 42" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
                 <title>box-3d-50</title>
@@ -133,7 +147,7 @@ The one place for all .
         </li>
  <!-- Dashboard Quick Link bar  : Communities tab-->
         <li class="nav-item">
-          <a class="nav-link  " href="../pages/community.php">
+          <a class="nav-link  " href="../pages/rtl.html">
             <div class="icon icon-shape icon-sm shadow border-radius-md bg-white text-center me-2 d-flex align-items-center justify-content-center">
               <svg width="12px" height="12px" viewBox="0 0 40 40" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
                 <title>settings</title>
@@ -150,7 +164,7 @@ The one place for all .
                 </g>
               </svg>
             </div>
-            <span class="nav-link-text ms-1"> Communities </span>
+            <span class="nav-link-text ms-1">Communities</span>
           </a>
         </li>
         <!-- Dashboard Quick Link bar  : Club tab-->
@@ -222,10 +236,34 @@ The one place for all .
             <span class="nav-link-text ms-1">Profile</span>
           </a>
         </li>
-
-        <!-- Dashboard Quick Link bar  : Complaint Forum tab-->
         <li class="nav-item">
-          <a class="nav-link  " href="../pages/forum.php">
+          <a class="nav-link  " href="../pages/sign-in.php">
+            <div class="icon icon-shape icon-sm shadow border-radius-md bg-white text-center me-2 d-flex align-items-center justify-content-center">
+              <svg width="12px" height="12px" viewBox="0 0 40 44" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                <title>document</title>
+                <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                  <g transform="translate(-1870.000000, -591.000000)" fill="#FFFFFF" fill-rule="nonzero">
+                    <g transform="translate(1716.000000, 291.000000)">
+                      <g transform="translate(154.000000, 300.000000)">
+                        <path class="color-background opacity-6" d="M40,40 L36.3636364,40 L36.3636364,3.63636364 L5.45454545,3.63636364 L5.45454545,0 L38.1818182,0 C39.1854545,0 40,0.814545455 40,1.81818182 L40,40 Z"></path>
+                        <path class="color-background" d="M30.9090909,7.27272727 L1.81818182,7.27272727 C0.814545455,7.27272727 0,8.08727273 0,9.09090909 L0,41.8181818 C0,42.8218182 0.814545455,43.6363636 1.81818182,43.6363636 L30.9090909,43.6363636 C31.9127273,43.6363636 32.7272727,42.8218182 32.7272727,41.8181818 L32.7272727,9.09090909 C32.7272727,8.08727273 31.9127273,7.27272727 30.9090909,7.27272727 Z M18.1818182,34.5454545 L7.27272727,34.5454545 L7.27272727,30.9090909 L18.1818182,30.9090909 L18.1818182,34.5454545 Z M25.4545455,27.2727273 L7.27272727,27.2727273 L7.27272727,23.6363636 L25.4545455,23.6363636 L25.4545455,27.2727273 Z M25.4545455,20 L7.27272727,20 L7.27272727,16.3636364 L25.4545455,16.3636364 L25.4545455,20 Z"></path>
+                      </g>
+                    </g>
+                  </g>
+                </g>
+              </svg>
+            </div>
+            <span class="nav-link-text ms-1">
+            <?php
+                include "phpqueries/name.php"                 
+            ?>
+            </span>
+          </a>
+        </li>
+
+        <!-- Dashboard Quick Link bar  : Job Finder tab-->
+        <li class="nav-item">
+          <a class="nav-link  " href="../pages/virtual-reality.html">
             <div class="icon icon-shape icon-sm shadow border-radius-md bg-white text-center me-2 d-flex align-items-center justify-content-center">
               <svg width="12px" height="12px" viewBox="0 0 42 42" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
                 <title>box-3d-50</title>
@@ -247,11 +285,7 @@ The one place for all .
         </li>
       </ul>
     </div>
-    <div class="sidenav-footer mx-3 ">
-      <div class="card card-background shadow-none card-background-mask-secondary" id="sidenavCard">
-        <div class="full-background" style="background-image: url('../assets/img/curved-images/white-curved.jpeg')"></div>
-   
- 
+    
   </aside>
   <main class="main-content position-relative max-height-vh-100 h-100 mt-1 border-radius-lg ">
     <!-- Navbar -->
@@ -261,7 +295,6 @@ The one place for all .
           <ol class="breadcrumb bg-transparent mb-0 pb-0 pt-1 px-0 me-sm-6 me-5">
             <li class="breadcrumb-item text-sm"><a class="opacity-5 text-dark" href="javascript:;">Pages</a></li>
             <li class="breadcrumb-item text-sm text-dark active" aria-current="page">Dashboard</li>
-            <li class="breadcrumb-item text-sm text-dark active" aria-current="page">clubs</li>
           </ol>
           <h6 class="font-weight-bolder mb-0">Dashboard</h6>
         </nav>
@@ -276,7 +309,11 @@ The one place for all .
             <li class="nav-item d-flex align-items-center">
               <a href="javascript:;" class="nav-link text-body font-weight-bold px-0">
                 <i class="fa fa-user me-sm-1"></i>
-                <span class="d-sm-inline d-none"><?php include "phpqueries/name.php" ?></span>
+                <span class="d-sm-inline d-none">
+                <?php
+                include "phpqueries/name.php"                 
+                ?>
+                </span>
               </a>
             </li>
             <li class="nav-item d-xl-none ps-3 d-flex align-items-center">
@@ -324,7 +361,7 @@ The one place for all .
                       </div>
                       <div class="d-flex flex-column justify-content-center">
                         <h6 class="text-sm font-weight-normal mb-1">
-                          <span class="font-weight-bold">New message</span> from Kumili
+                          <span class="font-weight-bold">New message</span> from Akshaymon
                         </h6>
                         <p class="text-xs text-secondary mb-0">
                           <i class="fa fa-clock me-1"></i>
@@ -389,306 +426,75 @@ The one place for all .
       </div>
     </nav>
     <!-- End Navbar -->
-
-    <div class="col-12 mt-4">
-          <div class="card mb-4">
-            <div class="card-header pb-0 p-3">
-              <h6 class="mb-1">Communities</h6>
-              <p class="text-sm">My Communities</p>
-            </div>
-            <div class="card-body p-3">
-              <div class="row">
-                <div class="col-xl-3 col-md-6 mb-xl-0 mb-4">
-                  <div class="card card-blog card-plain">
-                    <div class="position-relative">
-                      <a class="d-block shadow-xl border-radius-xl">
-                        <img src="../assets/img/community.png" alt="img-blur-shadow" class="img-fluid shadow border-radius-xl">
-                      </a>
-                    </div>
-                    <div class="card-body px-1 pb-0">
-                      <p class="text-gradient text-dark mb-2 text-sm"></p>
-                      <a href="javascript:;">
-                        <h5>
-                          <?php
-                            include "phpqueries/hometown.php"
-                          ?> Community
-                        </h5>
-                      </a>
-                      <p class="mb-4 text-sm">
-                        Join for more <?php
-                            include "phpqueries/hometown.php"
-                          ?> updates!
-                      </p>
-                      <div class="d-flex align-items-center justify-content-between">
-                        <a href="communityindex.php" type="button" class="btn btn-outline-primary btn-sm mb-0">Go To Community</a>
-                        
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                
-                <div class="col-xl-3 col-md-6 mb-xl-0 mb-4">
-                  <div class="card h-100 card-plain border">
-                    <div class="card-body d-flex flex-column justify-content-center text-center">
-                      <a href="clubs.php">
-                        <i class="fa fa-plus text-secondary mb-3"></i>
-                        <h5 class=" text-secondary"> Explore new Communities </h5>
-                      </a>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
     
-
-
-    <div class="row mt-4">
-        <div class="col-lg-7 mb-lg-0 mb-4">
-          <div class="card">
-            <div class="card-body p-3">
-              <div class="row">
-                
-                  <div class="d-flex flex-column h-100">
-                    <p class="mb-1 pt-2 text-bold">Why Join a community?</p>
-                    <br/>
-                    <h5 class="font-weight-bolder">A "self-organized network of people with common agenda, cause, or interest, who collaborate by sharing ideas, information, and other resources." </h5>
-                    <p class="mb-1">
-                            The key is that every member of the community is in orbit around the purpose, whether at the distance of Mercury or the distance of Pluto. They are not in orbit around other community members or community leadership.</p>
-                    <p class="mb-1">
-                        A community starts with a core purpose, which draws people together. Some people hold that purpose very closely, while others participate at a distance.</p>
-                  
-                </div>
-              </div>
-            </div>
+    <div class="container-fluid">
+      <div class="page-header min-height-250 border-radius-xl mt-4" style="background-image: url('../assets/img/curved-images/curved0.jpg'); background-position-y: 50%;">
+        <span class="mask bg-gradient-primary opacity-6"></span>
+      </div>
+      <div class="card card-body blur shadow-blur mx-4 mt-n6 overflow-hidden">
+        <div class="row gx-4">
+          <div class="col-auto">
+           
           </div>
-        </div>
-
-
-        <div class="col-lg-5">
-        <div class="container">
-  
-            <card class="card">
-            <iframe width="560" height="290" src="https://www.youtube.com/embed/s3FmbRtTyoc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                <div class="card-body">
-
-                </div>
-            </card>
-            </div>
-        </div>
-    </div>
-
-<div class="row mt-4">
-    <div class="col-lg-5">
-        <div class="container">
-  
-  <card class="card">
-    <iframe class="card-img-top" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2038.8869354068509!2d15.21545545625287!3d59.26803797168206!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x465c14e4a4c8e193%3A0xf18609c2d9ee261f!2sLa%20Santa%20Maria%20Tattoos%20%26%20Art!5e0!3m2!1ssv!2sse!4v1568297791174!5m2!1ssv!2sse" frameborder="0" style="border:0;" allowfullscreen="">
-    </iframe>
-    <div class="card-body">
-      <table>
-        <tr>
-          <td><i class="fas fa-map-marker-alt"></i></td>
-          <td>
-            <address>
-              Mangalam Lane <br>
-              Stradfordshire Palace<br>
-              Kollam
-            </address>
-          </td>
-        </tr>
-        <tr>
-          <td><i class="far fa-envelope"></i></td>
-          <td>www.github.com/inevitables</td>
-        </tr>
-        <tr>
-          <td><i class="fas fa-phone"></i></td>
-          <td>91 9100100100</td>
-        </tr>
-        <tr>
-          <td><i class="fab fa-instagram"></i></td>
-          <td>jagapoka @ instagram</td>
-        </tr>
-      </table>
-
-    </div>
-  </card>
-  </div>
-    </div>
-
-
-        <div class="col-lg-4 col-md-6">
-          <div class="card h-100">
-            <div class="card-header pb-0">
-              <h6>Notice Boards</h6>
-              <p class="text-sm">
-                <i class="fa fa-arrow-up text-success" aria-hidden="true"></i>
-                <span class="font-weight-bold">24%</span> this month
+          <div class="col-auto my-auto" > 
+            <div class="h-100" >
+              <h5 class="mb-1" >
+               Community Feeds
+              </h5>
+              <p class="mb-0 font-weight-bold text-sm">
+                All related our community!
               </p>
+              
             </div>
-            <div class="card-body p-3">
-              <div class="timeline timeline-one-side">
-                <div class="timeline-block mb-3">
-                  <span class="timeline-step">
-                    <i class="ni ni-bell-55 text-success text-gradient"></i>
-                  </span>
-                  <div class="timeline-content">
-                    <h6 class="text-dark text-sm font-weight-bold mb-0">Plumbers for hire</h6>
-                    <p class="text-secondary font-weight-bold text-xs mt-1 mb-0">22 DEC 7:20 PM</p>
+
+            
+          </div>
+
+        </div>
+    </div>
+    <div class="container-fluid py-4">
+      <div class="row">
+        <div class="col-6 col-xl-6">
+          <div class="card h-100">
+            <div class="card-header pb-0 p-3">
+              <h6 class="mb-0">Post Your Views</h6>
+            </div>
+
+            <div class="row mt-4">
+              <div class="col-lg-12 ">
+                <div class="card">
+                  <div class="card-body p-3">          
+                  
+                    <div id="feed-container"></div>                  
                   </div>
-                </div>
-                <div class="timeline-block mb-3">
-                  <span class="timeline-step">
-                    <i class="ni ni-html5 text-danger text-gradient"></i>
-                  </span>
-                  <div class="timeline-content">
-                    <h6 class="text-dark text-sm font-weight-bold mb-0">Web Developers for hire</h6>
-                    <p class="text-secondary font-weight-bold text-xs mt-1 mb-0">21 DEC 11 PM</p>
-                  </div>
-                </div>
-                <div class="timeline-block mb-3">
-                  <span class="timeline-step">
-                    <i class="ni ni-cart text-info text-gradient"></i>
-                  </span>
-                  <div class="timeline-content">
-                    <h6 class="text-dark text-sm font-weight-bold mb-0">Shoping vouchers for club members are available</h6>
-                    <p class="text-secondary font-weight-bold text-xs mt-1 mb-0">21 DEC 9:34 PM</p>
-                  </div>
-                </div>
-                <div class="timeline-block mb-3">
-                  <span class="timeline-step">
-                    <i class="ni ni-credit-card text-warning text-gradient"></i>
-                  </span>
-                  <div class="timeline-content">
-                    <h6 class="text-dark text-sm font-weight-bold mb-0">Discount for Community card holders</h6>
-                    <p class="text-secondary font-weight-bold text-xs mt-1 mb-0">20 DEC 2:20 AM</p>
-                  </div>
-                </div>
-                <div class="timeline-block mb-3">
-                  <span class="timeline-step">
-                    <i class="ni ni-key-25 text-primary text-gradient"></i>
-                  </span>
-                  <div class="timeline-content">
-                    <h6 class="text-dark text-sm font-weight-bold mb-0">Unlock Special perks</h6>
-                    <p class="text-secondary font-weight-bold text-xs mt-1 mb-0">18 DEC 4:54 AM</p>
-                  </div>
-                </div>
-                <div class="timeline-block">
-                  <span class="timeline-step">
-                    <i class="ni ni-money-coins text-dark text-gradient"></i>
-                  </span>
-                  <div class="timeline-content">
-                    <h6 class="text-dark text-sm font-weight-bold mb-0">Discount for Community card holders</h6>
-                    <p class="text-secondary font-weight-bold text-xs mt-1 mb-0">17 DEC</p>
+                
                   </div>
                 </div>
               </div>
-            </div>
           </div>
         </div>
-
-        <div class="col-3">
-          <div class="card mb-4">
-            <div class="card-header pb-0">
-              <h6>Top Rated Comminity users</h6>
+  
+        <div class="col-6 col-xl-6">
+          <div class="card h-100">
+            <div class="card-header pb-0 p-3">
+              <h6 class="mb-0">Notifications</h6>
             </div>
-            <div class="card-body px-0 pt-0 pb-2">
-              <div class="table-responsive p-0">
-                <table class="table align-items-center mb-0">
-                  <thead>
-                    <tr>
-                      <th class="text-uppercase text-secondary text-xxs font-weight-bolder opacity-7">Name</th>
-                    </tr>
-                  </thead>
-                  <tbody>
-                    <tr>
-                      <td>
-                        <div class="d-flex px-2 py-1">
-                          <div>
-                            <img src="../assets/img/team-2.jpg" class="avatar avatar-sm me-3" alt="user1">
-                          </div>
-                          <div class="d-flex flex-column justify-content-center">
-                            <h6 class="mb-0 text-sm">Akhil M Anil</h6>
-                            <p class="text-xs text-secondary mb-0">akhilmanil0@gmail.com</p>
-                          </div>
-                        </div>
-                      </td>                  
-                    </tr>
 
-                    <tr>
-                      <td>
-                        <div class="d-flex px-2 py-1">
-                          <div>
-                            <img src="../assets/img/team-3.jpg" class="avatar avatar-sm me-3" alt="user2">
-                          </div>
-                          <div class="d-flex flex-column justify-content-center">
-                            <h6 class="mb-0 text-sm">Akshay V Anil</h6>
-                            <p class="text-xs text-secondary mb-0">akshayvanil117@gmail.com</p>
-                          </div>
-                        </div>
-                      </td>
-                    </tr>
-                    <tr>
-                      <td>
-                        <div class="d-flex px-2 py-1">
-                          <div>
-                            <img src="../assets/img/team-4.jpg" class="avatar avatar-sm me-3" alt="user3">
-                          </div>
-                          <div class="d-flex flex-column justify-content-center">
-                            <h6 class="mb-0 text-sm">Akshaymon K V</h6>
-                            <p class="text-xs text-secondary mb-0">kvakshaymon@gmail.com</p>
-                          </div>
-                        </div>
-                      </td>
-                    </tr>
-                    <tr>
-                      <td>
-                        <div class="d-flex px-2 py-1">
-                          <div>
-                            <img src="../assets/img/team-3.jpg" class="avatar avatar-sm me-3" alt="user4">
-                          </div>
-                          <div class="d-flex flex-column justify-content-center">
-                            <h6 class="mb-0 text-sm">Arjun Raj</h6>
-                            <p class="text-xs text-secondary mb-0">arjunraj.pala@gmail.com</p>
-                          </div>
-                        </div>
-                      </td>
-                    </tr>
-                    <tr>
-                      <td>
-                        <div class="d-flex px-2 py-1">
-                          <div>
-                            <img src="../assets/img/team-2.jpg" class="avatar avatar-sm me-3" alt="user5">
-                          </div>
-                          <div class="d-flex flex-column justify-content-center">
-                            <h6 class="mb-0 text-sm">Allen John</h6>
-                            <p class="text-xs text-secondary mb-0">allenjohn@gmail.com</p>
-                          </div>
-                        </div>
-                      </td>
-                    </tr>
-                    <tr>
-                      <td>
-                        <div class="d-flex px-2 py-1">
-                          <div>
-                            <img src="../assets/img/team-4.jpg" class="avatar avatar-sm me-3" alt="user6">
-                          </div>
-                          <div class="d-flex flex-column justify-content-center">
-                            <h6 class="mb-0 text-sm">Aleena Bijoy</h6>
-                            <p class="text-xs text-secondary mb-0">aleena.bijoy@gmail.com</p>
-                          </div>
-                        </div>
-                      </td>
-                    </tr>
-                  </tbody>
-                </table>
+            <div class="row mt-4">
+              <div class="col-lg-12 ">
+                <div class="card">
+                  <div class="card-body p-3">          
+                  
+                    <div id="feeds-container"></div>                  
+                  </div>
+                
+                  </div>
+                </div>
               </div>
-            </div>
           </div>
         </div>
-
-      </div> 
+      </div>
+    </div>
 
 
       <!-- Start of footer -->
@@ -701,23 +507,23 @@ The one place for all .
                   document.write(new Date().getFullYear())
                 </script>,
                 made with <i class="fa fa-heart"></i> by
-                <a href="#" class="font-weight-bold" target="_blank">Team Inevitables</a>
+                <a href="https://www.creative-tim.com" class="font-weight-bold" target="_blank">Team Inevitables</a>
                 for a better community.
               </div>
             </div>
             <div class="col-lg-6">
               <ul class="nav nav-footer justify-content-center justify-content-lg-end">
                 <li class="nav-item">
-                  <a href="#" class="nav-link text-muted" target="_blank">Team Inevitables</a>
+                  <a href="https://www.creative-tim.com" class="nav-link text-muted" target="_blank">Team Inevitables</a>
                 </li>
                 <li class="nav-item">
-                  <a href="#" class="nav-link text-muted" target="_blank">About Us</a>
+                  <a href="https://www.creative-tim.com/presentation" class="nav-link text-muted" target="_blank">About Us</a>
                 </li>
                 <li class="nav-item">
-                  <a href="#" class="nav-link text-muted" target="_blank">Blog</a>
+                  <a href="https://creative-tim.com/blog" class="nav-link text-muted" target="_blank">Blog</a>
                 </li>
                 <li class="nav-item">
-                  <a href="#" class="nav-link pe-0 text-muted" target="_blank">License</a>
+                  <a href="https://www.creative-tim.com/license" class="nav-link pe-0 text-muted" target="_blank">License</a>
                 </li>
               </ul>
             </div>
@@ -777,12 +583,16 @@ The one place for all .
           <input class="form-check-input mt-1 ms-auto" type="checkbox" id="navbarFixed" onclick="navbarFixed(this)">
         </div>
         <hr class="horizontal dark my-sm-4">
+        <a class="btn bg-gradient-dark w-100" href="https://www.creative-tim.com/product/soft-ui-dashboard-pro">Free Download this project</a>
+        <a class="btn btn-outline-dark w-100" href="https://www.creative-tim.com/learning-lab/bootstrap/license/soft-ui-dashboard">View documentation</a>
         <div class="w-100 text-center">
-          <a class="github-button" href="#" data-icon="octicon-star" data-size="large" data-show-count="true" aria-label="Star creativetimofficial/soft-ui-dashboard on GitHub">Star</a>
+          <a class="github-button" href="https://github.com/creativetimofficial/soft-ui-dashboard" data-icon="octicon-star" data-size="large" data-show-count="true" aria-label="Star creativetimofficial/soft-ui-dashboard on GitHub">Star</a>
           <h6 class="mt-3">Thank you for sharing!</h6>
           <h6 class="mt-3">Team Inevitables!</h6>
+          <a href="https://twitter.com/intent/tweet?text=Check%20Soft%20UI%20Dashboard%20made%20by%20%40CreativeTim%20%23webdesign%20%23dashboard%20%23bootstrap5&amp;url=https%3A%2F%2Fwww.creative-tim.com%2Fproduct%2Fsoft-ui-dashboard" class="btn btn-dark mb-0 me-2" target="_blank">
             <i class="fab fa-twitter me-1" aria-hidden="true"></i> Tweet
           </a>
+          <a href="https://www.facebook.com/sharer/sharer.php?u=https://www.creative-tim.com/product/soft-ui-dashboard" class="btn btn-dark mb-0 me-2" target="_blank">
             <i class="fab fa-facebook-square me-1" aria-hidden="true"></i> Share
           </a>
         </div>
@@ -978,6 +788,41 @@ The one place for all .
   <script async defer src="https://buttons.github.io/buttons.js"></script>
   <!-- Control Center for Soft Dashboard: parallax effects, scripts for the example pages etc -->
   <script src="../assets/js/soft-ui-dashboard.min.js?v=1.0.3"></script>
+
+  <!-- Containter for Weavy Messenger -->
+  <div id="feed-container"></div>
+
+<!-- App js -->
+<script src="assets/js/app.js"></script>
+
+<!-- TASK: add weavy javascript library here -->
+<script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+<script src="https://weavy-demo.azurewebsites.net/javascript/weavy.min.js"></script>
+
+
+<!-- weavy client script -->
+<!-- <script src="assets/js/weavy.js"></script> -->
+<script>
+  var jwt = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJkZW1vdXNlciIsIm5hbWUiOiJhZG1pbiIsImV4cCI6MjUxNjIzOTAyMiwiaXNzIjoidGhlaW5ldml0YWJsZXMiLCJjbGllbnRpZCI6InRoZWluZXZpdGFibGVzIiwiY2xpZW50c2VjcmV0IjoidGhlaW5ldml0YWJsZXMiLCJlbWFpbCI6ImFraGlsbWFuaWwwQGdtYWlsLmNvbSIsInBhc3N3b3JkIjoiYWtoaWxAMTIzIiwidXNlcm5hbWUiOiJhZG1pbiJ9.pO_8T5Z4j7dcps_Oj2DYWGDPEtPL-zt4nK1eg-eOtBs";
+  var weavy = new Weavy({ jwt: jwt });
+  var space = weavy.space({ key: "communityindex" });
+  space.app({
+    key: "communityindex",
+    type: "posts",
+    container: "#feed-container"
+  });
+</script>
+
+<script>
+  var jwt = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJkZW1vdXNlciIsIm5hbWUiOiJhZG1pbiIsImV4cCI6MjUxNjIzOTAyMiwiaXNzIjoidGhlaW5ldml0YWJsZXMiLCJjbGllbnRpZCI6InRoZWluZXZpdGFibGVzIiwiY2xpZW50c2VjcmV0IjoidGhlaW5ldml0YWJsZXMiLCJlbWFpbCI6ImFraGlsbWFuaWwwQGdtYWlsLmNvbSIsInBhc3N3b3JkIjoiYWtoaWxAMTIzIiwidXNlcm5hbWUiOiJhZG1pbiJ9.pO_8T5Z4j7dcps_Oj2DYWGDPEtPL-zt4nK1eg-eOtBs";
+  var weavy = new Weavy({ jwt: jwt });
+  var space = weavy.space({ key: "communitynotification" });
+  space.app({
+    key: "communitynotification",
+    type: "posts",
+    container: "#feeds-container"
+  });
+</script>
 </body>
 
 </html>
