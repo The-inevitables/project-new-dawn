@@ -639,7 +639,7 @@ PLACE YOUR CODE HERE!-->
                           </svg>
                     </span>
 
-                    <span>Sell on the Maretplace</span>
+                    <span>Sell on the Marketplace</span>
                 </div>
 
                 <div class="sidebar-main-category cursor-pointer flex font-bold text-black  mb-2 p-2 hover:bg-purple-200 rounded-xl bg-gradient-to-r from-gray-400 via-gray-300 to-gray-150. ..  hover:from-green-400 hover:to-blue-500 hover:from-green-400 hover:to-blue-500">
