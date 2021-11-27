@@ -2,7 +2,9 @@
 =========================================================
 Project New Dawn Dashboard
 =========================================================
-The one place for all .
+A community management solution shaped itself in a web- app .
+ Pandemic has taught us the value of community, what if we can build a better community with the power of technology? P
+ roject New Dawn aims at increasing the quality of life in a community with the help of technology.It gives emphasis on providing a better community experience through a webapp.
 
 
 =========================================================
@@ -497,7 +499,7 @@ The one place for all .
             <div class="col-lg-6">
                <div class="card h-100 p-3">
                    <div class="overflow-hidden position-relative border-radius-lg bg-cover h-100" style="background-image: url('../assets/img/bgm.jpg');">
-                    <!-- <span class="mask bg-gradient-dark"></span> -->
+
                        <div class="card-body position-relative z-index-1 d-flex flex-column h-100 p-3">
                              <h5 class="text-white font-weight-bolder mb-4 pt-2">HUMANKIND</h5>
                               <p class="text-white">It was pouring, as I entered a  nearby porch.Out of the blue, a kid startled me from behind--I panicked and scampered away. 
@@ -507,7 +509,7 @@ The one place for all .
                                 The father yelled at him and pushed him out of the entrance.I was terrified, and in a jiffy, I ran away screaming, "Meow! Meow …"</p>
                               <a class="text-white text-sm font-weight-bold mb-0 icon-move-right mt-auto" href="javascript:;">
                               --Aswin R. S., Chennai&emsp;
-                                <!-- <i class="fas fa-arrow-right text-sm ms-1" aria-hidden="true"></i> -->
+
                                 <span class="fa fa-star checked"></span>
                               <span class="fa fa-star checked"></span>
                               <span class="fa fa-star checked"></span>
@@ -522,7 +524,6 @@ The one place for all .
               <div class="col-lg-6">
                  <div class="card h-100 p-3">
                    <div class="overflow-hidden position-relative border-radius-lg bg-cover h-100" style="background-image: url('../assets/img/bgm.jpg');">
-                    <!-- <span class="mask bg-gradient-dark"></span> -->
                        <div class="card-body position-relative z-index-1 d-flex flex-column h-100 p-3">
                              <h5 class="text-white font-weight-bolder mb-4 pt-2">LOVE ACTUALLY</h5>
                               <p class="text-white">"Do you believe in shooting stars?" she asked."Do you?""There is no harm, is there?" She paused. 
@@ -532,7 +533,6 @@ The one place for all .
                                  He had teased her about the silver hair at the back of her sweater.</p>
                               <a class="text-white text-sm font-weight-bold mb-0 icon-move-right mt-auto" href="javascript:;">
                               --Maya Davi Chalissery, Thrissur, Kerala &emsp;
-                                <!-- <i class="fas fa-arrow-right text-sm ms-1" aria-hidden="true"></i>  -->
                                 <span class="fa fa-star checked"></span>
                               <span class="fa fa-star checked"></span>
                               <span class="fa fa-star checked"></span>
@@ -550,7 +550,6 @@ The one place for all .
                 <div class="col-lg-6">
                  <div class="card h-100 p-3">
                    <div class="overflow-hidden position-relative border-radius-lg bg-cover h-100" style="background-image: url('../assets/img/bgm.jpg');">
-                    <!-- <span class="mask bg-gradient-dark"></span> -->
                        <div class="card-body position-relative z-index-1 d-flex flex-column h-100 p-3">
                              <h5 class="text-white font-weight-bolder mb-4 pt-2">STREET SMART</h5>
                               <p class="text-white">It was 9 a.m., 26 January. The politician's car, on the way to the flag-hoisting ceremony, stopped at a red light. 
@@ -559,7 +558,6 @@ The one place for all .
                                  On other days, I have seen you sell toys, umbrellas and kites. Is there anything you have not sold so far?""Our country," the boy retorted at once.</p>
                               <a class="text-white text-sm font-weight-bold mb-0 icon-move-right mt-auto" href="javascript:;">
                               --Kalpesh Sheth, Mumbai &emsp;
-                                <!-- <i class="fas fa-arrow-right text-sm ms-1" aria-hidden="true"></i> -->
                                 <span class="fa fa-star checked"></span>
                               <span class="fa fa-star checked"></span>
                               <span class="fa fa-star checked"></span>
@@ -574,7 +572,6 @@ The one place for all .
                 <div class="col-lg-6">
                  <div class="card h-100 p-3">
                    <div class="overflow-hidden position-relative border-radius-lg bg-cover h-100" style="background-image: url('../assets/img/bgm.jpg');">
-                    <!-- <span class="mask bg-gradient-dark"></span> -->
                        <div class="card-body position-relative z-index-1 d-flex flex-column h-100 p-3">
                              <h5 class="text-white font-weight-bolder mb-4 pt-2">The Old Hunter</h5>
                               <p class="text-white">The terminal illness gripped the Old Hunter tight in its grasp, dragging him down piece by piece. 
@@ -583,7 +580,6 @@ The one place for all .
                                   For the Old Hunter to confront the final predator, the Ravager of Souls and face the judgement that is to come.</p>
                               <a class="text-white text-sm font-weight-bold mb-0 icon-move-right mt-auto" href="javascript:;">
                                  --Bill Cox &emsp;
-                                <!-- <i class="fas fa-arrow-right text-sm ms-1" aria-hidden="true"></i> -->
                                 <span class="fa fa-star checked"></span>
                               <span class="fa fa-star checked"></span>
                               <span class="fa fa-star checked"></span>
@@ -610,23 +606,23 @@ The one place for all .
                   document.write(new Date().getFullYear())
                 </script>,
                 made with <i class="fa fa-heart"></i> by
-                <a href="https://www.creative-tim.com" class="font-weight-bold" target="_blank">Team Inevitables</a>
+                <a href="https://github.com/The-inevitables/project-new-dawn" class="font-weight-bold" target="_blank">Team Inevitables</a>
                 for a better community.
               </div>
             </div>
             <div class="col-lg-6">
               <ul class="nav nav-footer justify-content-center justify-content-lg-end">
                 <li class="nav-item">
-                  <a href="https://www.creative-tim.com" class="nav-link text-muted" target="_blank">Team Inevitables</a>
+                  <a href="https://github.com/The-inevitables/project-new-dawn" class="nav-link text-muted" target="_blank">Team Inevitables</a>
                 </li>
                 <li class="nav-item">
-                  <a href="https://www.creative-tim.com/presentation" class="nav-link text-muted" target="_blank">About Us</a>
+                  <a href="https://github.com/The-inevitables/project-new-dawn" class="nav-link text-muted" target="_blank">About Us</a>
                 </li>
                 <li class="nav-item">
-                  <a href="https://creative-tim.com/blog" class="nav-link text-muted" target="_blank">Blog</a>
+                  <a href="https://github.com/The-inevitables/project-new-dawn" class="nav-link text-muted" target="_blank">Blog</a>
                 </li>
                 <li class="nav-item">
-                  <a href="https://www.creative-tim.com/license" class="nav-link pe-0 text-muted" target="_blank">License</a>
+                  <a href="https://github.com/The-inevitables/project-new-dawn" class="nav-link pe-0 text-muted" target="_blank">License</a>
                 </li>
               </ul>
             </div>
