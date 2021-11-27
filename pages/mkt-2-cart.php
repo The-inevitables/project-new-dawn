@@ -579,7 +579,7 @@ PLACE YOUR CODE HERE!-->
                       <span class=>My Cart</span>
                   </div>
                 </a>
-
+                <a href="forum.php">
                 <div class="sidebar-main-category cursor-pointer flex font-bold text-black  mb-2 p-2 hover:bg-purple-200 rounded-xl bg-gradient-to-r from-gray-400 via-gray-300 to-gray-150.. ..  hover:from-green-400 hover:to-blue-500 hover:from-green-400 hover:to-blue-500">
 
                     <span class="w-8 items-center justify-center">
@@ -590,6 +590,7 @@ PLACE YOUR CODE HERE!-->
 
                     <span>Help</span>
                 </div>
+              </a>
                   
 
                 </div>
