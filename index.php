@@ -1,5 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
+<!-- ======= Prject New Dawn ============== -->
+<!-- A community management solution shaped itself in a web- app .
+ Pandemic has taught us the value of community, what if we can build a better community with the power of technology? P
+ roject New Dawn aims at increasing the quality of life in a community with the help of technology.It gives emphasis on providing a better community experience through a webapp. -->
+
+<!-- =================================== -->
 
 <head>
   <meta charset="utf-8">
@@ -36,8 +42,6 @@
 
       <div id="logo">
         <h1><a href="index.php"><span>Project </span>NEW DAWN</a></h1>
-        <!-- Uncomment below if you prefer to use an image logo -->
-        <!-- <a href="index.html"><img src="assets/img/logo.png" alt="" title="" /></a>-->
       </div>
 
       <nav id="navbar" class="navbar">
