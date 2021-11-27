@@ -6,3 +6,15 @@ Project New Dawn aims at increasing the quality of life in a community with the 
 
 New Dawn leverages the features provided by the Azure cloud platform and a bunch of OTHER new available technologies to create a hybrid online community.
 ![dashboard](https://user-images.githubusercontent.com/23217592/143688971-6c0f892a-628e-49cf-b7b8-171c9747b20b.png)
+
+## INSTALLATION
+
+Local Install:
+
+Download and Install XAMPP in your local machine.
+Download and Extract the code to htdocs in xampp folder.
+Start the apache server and go to ``` localhost/{name of the folder}``` 
+
+## DEPLOYMENT
+
+[HORIZON](https://new-dawn.azurewebsites.net/)
