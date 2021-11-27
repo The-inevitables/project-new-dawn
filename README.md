@@ -17,4 +17,4 @@ Start the apache server and go to ``` localhost/{name of the folder}```
 
 ## DEPLOYMENT
 
-[HORIZON](https://new-dawn.azurewebsites.net/)
+[PROJECT NEW-DAWN](https://new-dawn.azurewebsites.net/)
