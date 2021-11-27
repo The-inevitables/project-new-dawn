@@ -2,7 +2,10 @@
 =========================================================
 Project New Dawn Dashboard
 =========================================================
-The one place for all .
+A community management solution shaped itself in a web- app . 
+Pandemic has taught us the value of community, what if we can build a better community with the power of technology? 
+Project New Dawn aims at increasing the quality of life in a community with the help of technology.
+It gives emphasis on providing a better community experience through a webapp.
 
 
 =========================================================
@@ -800,7 +803,6 @@ The one place for all .
 
 
 <!-- weavy client script -->
-<!-- <script src="assets/js/weavy.js"></script> -->
 <script>
   var jwt = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJkZW1vdXNlciIsIm5hbWUiOiJhZG1pbiIsImV4cCI6MjUxNjIzOTAyMiwiaXNzIjoidGhlaW5ldml0YWJsZXMiLCJjbGllbnRpZCI6InRoZWluZXZpdGFibGVzIiwiY2xpZW50c2VjcmV0IjoidGhlaW5ldml0YWJsZXMiLCJlbWFpbCI6ImFraGlsbWFuaWwwQGdtYWlsLmNvbSIsInBhc3N3b3JkIjoiYWtoaWxAMTIzIiwidXNlcm5hbWUiOiJhZG1pbiJ9.pO_8T5Z4j7dcps_Oj2DYWGDPEtPL-zt4nK1eg-eOtBs";
   var weavy = new Weavy({ jwt: jwt });
