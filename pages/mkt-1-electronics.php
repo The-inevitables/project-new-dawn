@@ -766,6 +766,7 @@ PLACE YOUR CODE HERE!-->
                     <span>Sell on the Marketplace</span>
                 </div>
 
+                <a href="forum.php">
                 <div class="sidebar-main-category cursor-pointer flex font-bold text-black  mb-2 p-2 hover:bg-purple-200 rounded-xl bg-gradient-to-r from-gray-400 via-gray-300 to-gray-150.. ..  hover:from-green-400 hover:to-blue-500 hover:from-green-400 hover:to-blue-500">
 
                     <span class="w-8">
@@ -776,6 +777,7 @@ PLACE YOUR CODE HERE!-->
 
                     <span>Help</span>
                 </div>
+                </a>
 
               </div>
 
